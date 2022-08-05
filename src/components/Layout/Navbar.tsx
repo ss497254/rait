@@ -9,7 +9,7 @@ const NavBar = () => {
     const targetRef = useRef(null);
 
     const handleScroll = () => {
-        if (window.scrollY < 5) {
+        if (window.scrollY < 200) {
             setIsScrolled(false);
         } else {
             setIsScrolled(true);
@@ -55,27 +55,27 @@ const NavBar = () => {
                 </div>
                 <div className="hidden md:flex justify-between">
                     <Link href="/">
-                        <span className="mx-3 px-4 pb-2 pt-1.5 cursor-pointer hover:bg-black font-semibold hover:text-white">
+                        <span className="mx-3 px-4 flex items-center h-10 cursor-pointer hover:bg-black font-semibold hover:text-white">
                             Home
                         </span>
                     </Link>
                     <Link href="authors">
-                        <span className="mx-3 px-4 pb-2 pt-1.5 cursor-pointer hover:bg-black font-semibold hover:text-white">
+                        <span className="mx-3 px-4 flex items-center h-10 cursor-pointer hover:bg-black font-semibold hover:text-white">
                             Authors
                         </span>
                     </Link>
                     <Link href="committee">
-                        <span className="mx-3 px-4 pb-2 pt-1.5 cursor-pointer hover:bg-black font-semibold hover:text-white">
+                        <span className="mx-3 px-4 flex items-center h-10 cursor-pointer hover:bg-black font-semibold hover:text-white">
                             Committees
                         </span>
                     </Link>
                     <Link href="sponsorship">
-                        <span className="mx-3 px-4 pb-2 pt-1.5 cursor-pointer hover:bg-black font-semibold hover:text-white">
+                        <span className="mx-3 px-4 flex items-center h-10 cursor-pointer hover:bg-black font-semibold hover:text-white">
                             Sponsorship
                         </span>
                     </Link>
                     <Link href="contact">
-                        <span className="mx-3 px-4 pb-2 pt-1.5 cursor-pointer hover:bg-black font-semibold hover:text-white">
+                        <span className="mx-3 px-4 flex items-center h-10 cursor-pointer hover:bg-black font-semibold hover:text-white">
                             Contact Us
                         </span>
                     </Link>
