@@ -1,0 +1,41 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/inter-ui/3.18.0/inter.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "slick-carousel/slick/slick.css";
+
+* {
+    font-family: Inter, Ubuntu, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#nprogress {
+    position: relative;
+    z-index: 9999999;
+}
+
+#nprogress .bar {
+    background: #fd4d4d !important;
+}
+
+#nprogress .peg {
+    box-shadow: 0 0 10px #fd4d4d, 0 0 5px #fd4d4d !important;
+}
+
+#nprogress .spinner-icon {
+    border-top-color: #fd4d4d !important;
+    border-left-color: #fd4d4d !important;
+}
+
+#nprogress .spinner-icon {
+    width: 30px;
+    height: 30px;
+    border-width: 3px;
+}
+
+#nprogress .spinner {
+    z-index: 9999;
+    top: 18px;
+    left: 18px;
+    right: auto;
+}
