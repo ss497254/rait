@@ -48,7 +48,7 @@ const NavBar = () => {
                                 isScrolled ? "" : "-white"
                             }.png`}
                             className="h-7 px-[3%] lg:px-[8%]"
-                            alt="FlowBite Logo"
+                            alt="Rait Logo"
                         />
                     </Link>
                 </div>
@@ -119,7 +119,7 @@ const NavBar = () => {
                             <img
                                 src="/assets/logo.png"
                                 className="ml-1 h-7"
-                                alt="FlowBite Logo"
+                                alt="Rait Logo"
                             />
                             <div className="-mr-2">
                                 <button

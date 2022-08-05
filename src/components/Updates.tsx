@@ -11,9 +11,8 @@ const Accordian = () => {
             >
                 <div className="w-full">
                     <h4 className="text-base font-medium text-black text-justify">
-                        Do you have join Do you have join Do you have join Do
-                        you have join join Do you have join Do you have join Do
-                        you have join ?
+                        Abstract and Paper submission deadline in Research and
+                        Applied Data Science Tracks extended.
                     </h4>
                 </div>
                 <div className="flex h-full px-1 items-center rounded-lg bgOpacity-5 text-gray-100">
@@ -55,7 +54,7 @@ export default function Updates() {
             <h1 className="w-full text-center my-16 text-4xl font-bold">
                 Updates
             </h1>
-            <div className="w-[90vw] mx-auto max-w-5xl flex flex-col gap-4 mb-20">
+            <div className="w-[90vw] mx-auto max-w-5xl flex flex-col gap-4 mb-20 lg:mb-24">
                 <Accordian />
                 <Accordian />
                 <Accordian />

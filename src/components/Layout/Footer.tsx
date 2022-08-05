@@ -9,7 +9,7 @@ export default function Footer() {
                         <img
                             src="/assets/logo.png"
                             className="mr-3 h-9"
-                            alt="FlowBite Logo"
+                            alt="Rait Logo"
                         />
                     </div>
                 </div>
@@ -21,10 +21,10 @@ export default function Footer() {
                         <ul className="text-gray-700 dark:text-gray-400">
                             <li className="mb-4">
                                 <a
-                                    href="https://flowbite.com/"
+                                    href="https://Rait.com/"
                                     className="hover:underline"
                                 >
-                                    Flowbite
+                                    Rait
                                 </a>
                             </li>
                             <li>
@@ -44,7 +44,7 @@ export default function Footer() {
                         <ul className="text-gray-700 dark:text-gray-400">
                             <li className="mb-4">
                                 <a
-                                    href="https://github.com/themesberg/flowbite"
+                                    href="https://github.com/themesberg/Rait"
                                     className="hover:underline "
                                 >
                                     Github
@@ -82,7 +82,7 @@ export default function Footer() {
             <div className="md:h-16 h-24 w-full flex flex-col md:flex-row items-center justify-center md:justify-between px-8 border border-t border-gray-300">
                 <span className="text-sm text-gray-900 sm:text-center dark:text-gray-400">
                     © {new Date().getFullYear()}{" "}
-                    <a href="https://flowbite.com/" className="hover:underline">
+                    <a href="https://Rait.com/" className="hover:underline">
                         RAIT™
                     </a>
                     . All Rights Reserved.

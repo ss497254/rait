@@ -24,8 +24,8 @@ export default function About() {
                     <div className="w-full px-4 lg:w-2/5 mb-8">
                         <img
                             src="/assets/about.jpg"
-                            className="lg:max-h-[475px] rounded mx-auto"
-                            alt="FlowBite Logo"
+                            className="max-w-[85vw] md:max-w-none md:max-h-[475px] rounded mx-auto"
+                            alt="Rait Logo"
                         />
                     </div>
                     <div className="w-full px-8 lg:w-3/5 leading-7 text-lg font-light text-justify mb-8">

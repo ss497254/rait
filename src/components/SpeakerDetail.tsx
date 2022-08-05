@@ -3,7 +3,7 @@ import DottedBackground from "./DottedBackground";
 
 export default function SpeakerDetail() {
     return (
-        <div className="mx-auto flex flex-col items-center mb-8 max-w-[350px]">
+        <div className="mx-auto flex flex-col items-center mb-8 max-w-[320px]">
             <div className="relative z-10 mb-6 rounded-full">
                 <img
                     src="/assets/profile.jpg"
