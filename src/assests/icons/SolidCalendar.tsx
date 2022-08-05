@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgSolidCalendar(props) {
+function SvgSolidCalendar(props: any) {
     return (
         <svg
             width={props.size || 16}

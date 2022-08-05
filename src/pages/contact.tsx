@@ -1,12 +1,13 @@
 import React from "react";
+import HeroBackground from "components/HeroBackground";
 
 export default function Contact() {
     return (
         <section className="min-h-screen">
-            <div className="w-full p-16 bg-blue-600 pt-32 text-white">
+            <HeroBackground>
                 <div className="flex flex-wrap items-center">
                     <div className="w-full px-4">
-                        <span className="text-6xl font-semibold text-dark">
+                        <span className="text-4xl lg:text-6xl font-semibold text-dark">
                             CONTACT US
                         </span>
                         <h2 className="mt-5 text-xl font-semibold">
@@ -15,7 +16,7 @@ export default function Contact() {
                         </h2>
                     </div>
                 </div>
-            </div>
+            </HeroBackground>
             <div className="mb-12 p-16 flex w-full gap-16 flex-col flex-wrap md:flex-row">
                 <div className="mb-8 flex flex-1 min-w-[300px]">
                     <div className="mr-6 text-[32px] text-primary">

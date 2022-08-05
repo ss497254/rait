@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgSolidMicrophone(props) {
+function SvgSolidMicrophone(props: any) {
     return (
         <svg
             data-testid="mic-on"

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-export default function SvgSolidGoogle(props) {
+export default function SvgSolidGoogle(props: any) {
     return (
         <svg
             width={props.size || 16}

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgSolidCaretRight(props) {
+function SvgSolidCaretRight(props: any) {
     return (
         <svg
             width={props.size || 16}

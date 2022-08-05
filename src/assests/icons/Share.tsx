@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function ShareIcon(props) {
+function ShareIcon(props: any) {
     return (
         <svg
             width={props.size || 16}

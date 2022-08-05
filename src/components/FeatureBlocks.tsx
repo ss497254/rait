@@ -52,7 +52,7 @@ function FeaturesBlocks() {
                                 </g>
                             </svg>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                Initial Contact
+                                Industry experts
                             </h4>
                             <p className="text-gray-600 text-center">
                                 Lorem ipsum dolor sit amet, consectetur
@@ -132,7 +132,7 @@ function FeaturesBlocks() {
                                 </g>
                             </svg>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                Contracting
+                                Over 50+ talks
                             </h4>
                             <p className="text-gray-600 text-center">
                                 Lorem ipsum dolor sit amet, consectetur
@@ -218,7 +218,7 @@ function FeaturesBlocks() {
                                 </g>
                             </svg>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                Design Phase
+                                Networking
                             </h4>
                             <p className="text-gray-600 text-center">
                                 Lorem ipsum dolor sit amet, consectetur
@@ -260,7 +260,7 @@ function FeaturesBlocks() {
                                 </g>
                             </svg>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                Develop & Launch
+                                Free extra resources
                             </h4>
                             <p className="text-gray-600 text-center">
                                 Lorem ipsum dolor sit amet, consectetur

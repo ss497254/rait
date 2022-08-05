@@ -1,12 +1,12 @@
 import React from "react";
-import Hero from "../components/Hero";
 import About from "../components/About";
-import Pricing from "../components/Pricing";
-import Feature from "../components/Feature";
-import FeatureBlocks from "../components/FeatureBlocks";
-import Testimonials from "../components/Testimonials";
-import Speakers from "../components/Speakers";
 import FAQs from "../components/FAQs";
+import FeatureBlocks from "../components/FeatureBlocks";
+import Hero from "../components/Hero";
+import Pricing from "../components/Pricing";
+import Speakers from "../components/Speakers";
+import Testimonials from "../components/Testimonials";
+import Updates from "../components/Updates";
 
 export default function Hello() {
     return (
@@ -15,7 +15,7 @@ export default function Hello() {
             <About />
             <Speakers />
             <Pricing />
-            <Feature />
+            <Updates />
             <FeatureBlocks />
             <Testimonials />
             <FAQs />
