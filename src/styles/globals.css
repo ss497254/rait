@@ -4,6 +4,10 @@
 @tailwind utilities;
 @import "slick-carousel/slick/slick.css";
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     font-family: Inter, Ubuntu, -apple-system, BlinkMacSystemFont, "Segoe UI",
         Roboto, Oxygen, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;

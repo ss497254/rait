@@ -4,7 +4,7 @@ const Accordian = () => {
     const [open, setOpen] = useState(false);
 
     return (
-        <div className="flex flex-col items-center w-full  border border-gray-300 rounded-sm border-l-4 border-l-blue-500 bg-white px-5 py-3">
+        <div className="flex flex-col items-center w-full  border border-gray-300 rounded-sm border-l-4 border-l-blue-500 bg-white px-5 py-6">
             <button
                 className="faq-btn flex w-full gap-4 items-center text-left"
                 onClick={() => setOpen(!open)}

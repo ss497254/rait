@@ -49,7 +49,7 @@ const FAQ = () => {
 
 export default function FAQs() {
     return (
-        <section className="relative z-20 overflow-hidden bg-violet-50 pt-16 pb-12 lg:pt-[80px] lg:pb-[90px]">
+        <section className="relative z-20 overflow-hidden bg-blue-100 pt-16 pb-12 lg:pt-[80px] lg:pb-[90px]">
             <div className="max-w-6xl mx-auto">
                 <div className="flex flex-wrap">
                     <div className="w-full px-4">
@@ -83,16 +83,16 @@ export default function FAQs() {
                 </div>
             </div>
 
-            <div className="absolute bottom-0 right-0 z-[-1] text-blue-100">
+            <div className="absolute bottom-0 right-0 z-[-1]">
                 <svg
                     width="1440"
                     height="886"
                     viewBox="0 0 1440 886"
-                    fill="none"
+                    fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg"
                 >
                     <path
-                        opacity="0.5"
+                        opacity="0.2"
                         d="M193.307 -273.321L1480.87 1014.24L1121.85 1373.26C1121.85 1373.26 731.745 983.231 478.513 729.927C225.976 477.317 -165.714 85.6993 -165.714 85.6993L193.307 -273.321Z"
                         fill="url(#paint0_linear)"
                     />

@@ -1,8 +1,12 @@
 import React from "react";
-import { SolidCalendar } from "assests/icons";
+import { SolidCalendar } from "assets/icons";
+
 export default function About() {
     return (
-        <section className="relative z-20 overflow-hidden bg-blue-100 pt-12 pb-10 lg:pt-[80px] lg:pb-20">
+        <section
+            id="about"
+            className="relative z-20 overflow-hidden bg-blue-100 pt-12 pb-10 lg:pt-[80px] lg:pb-20"
+        >
             <div className="max-w-6xl mx-auto">
                 <div className="w-full px-6">
                     <div className="mb-12 lg:mb-20">
@@ -28,7 +32,7 @@ export default function About() {
                             alt="Rait Logo"
                         />
                     </div>
-                    <div className="w-full px-8 lg:w-3/5 leading-7 text-lg font-light text-justify mb-8">
+                    <div className="w-full px-8 lg:w-3/5 text-md md:text-lg text-justify mb-8">
                         RAIT is a premier international conference focusing on
                         scientific work in Databases, Data Sciences and their
                         applications. Being held for the 6th time as a common
@@ -44,7 +48,7 @@ export default function About() {
                         Science.
                         <div className="flex flex-col md:flex-row gap-10 mt-12">
                             <div className="flex w-full flx">
-                                <div className="mr-4 pt-2 text-[32px] text-primary">
+                                <div className="mr-4 pt-2 text-[32px]">
                                     <svg
                                         width="29"
                                         height="35"
@@ -68,7 +72,7 @@ export default function About() {
                                 </div>
                             </div>
                             <div className="flex w-full">
-                                <div className="mr-4 pt-2 text-[32px] text-primary">
+                                <div className="mr-4 pt-2 text-[32px]">
                                     <SolidCalendar size={30} />
                                 </div>
                                 <div className="pr-2">
@@ -84,44 +88,6 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div className="absolute bottom-0 right-0 z-[-1]">
-                <svg
-                    width="1440"
-                    height="886"
-                    viewBox="0 0 1440 886"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                >
-                    <path
-                        opacity="0.5"
-                        d="M193.307 -273.321L1480.87 1014.24L1121.85 1373.26C1121.85 1373.26 731.745 983.231 478.513 729.927C225.976 477.317 -165.714 85.6993 -165.714 85.6993L193.307 -273.321Z"
-                        fill="url(#paint0_linear)"
-                    />
-                    <defs>
-                        <linearGradient
-                            id="paint0_linear"
-                            x1="1308.65"
-                            y1="1142.58"
-                            x2="602.827"
-                            y2="-418.681"
-                            gradientUnits="userSpaceOnUse"
-                        >
-                            <stop stopColor="#3056D3" stopOpacity="0.36" />
-                            <stop
-                                offset="1"
-                                stopColor="#F5F2FD"
-                                stopOpacity="0"
-                            />
-                            <stop
-                                offset="1"
-                                stopColor="#F5F2FD"
-                                stopOpacity="0.096144"
-                            />
-                        </linearGradient>
-                    </defs>
-                </svg>
             </div>
         </section>
     );

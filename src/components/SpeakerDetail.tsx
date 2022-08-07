@@ -8,7 +8,7 @@ export default function SpeakerDetail() {
                 <img
                     src="/assets/profile.jpg"
                     alt="image"
-                    className="w-40 h-40 m-2 rounded-full hover:scale-105 transition"
+                    className="w-40 h-40 m-2 rounded-full hover:scale-110 transition duration-500"
                 />
                 <DottedBackground />
                 <span className="absolute right-0 bottom-0">
