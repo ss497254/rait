@@ -5,15 +5,15 @@ export default function About() {
     return (
         <section
             id="about"
-            className="relative z-20 overflow-hidden bg-blue-100 pt-12 pb-10 lg:pt-[80px] lg:pb-20"
+            className="relative z-20 overflow-hidden bg-blue-100 pt-[70px] pb-10 lg:pt-[80px] lg:pb-20"
         >
             <div className="max-w-6xl mx-auto">
                 <div className="w-full px-6">
                     <div className="mb-12 lg:mb-20">
-                        <span className="mb-2 block text-xl font-semibold text-blue-500">
+                        <span className="mb-2 block text-2xl font-bold text-blue-500">
                             Welcome
                         </span>
-                        <h2 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[42px]">
+                        <h2 className="mb-4 text-4xl md:text-5xl font-bold text-dark">
                             Know about us
                         </h2>
                         {/* <p className="text-md leading-relaxed text-body-color sm:leading-relaxed max-w-3xl">
@@ -24,13 +24,11 @@ export default function About() {
                     </div>
                 </div>
 
-                <div className="flex flex-wrap">
-                    <div className="w-full px-4 lg:w-2/5 mb-8">
-                        <img
-                            src="/assets/about.jpg"
-                            className="max-w-[85vw] md:max-w-none md:max-h-[475px] rounded mx-auto"
-                            alt="Rait Logo"
-                        />
+                <div className="flex flex-wrap justify-between">
+                    <div className="w-full lg:w-fit px-4 mb-12">
+                        <div className="w-fit mx-auto">
+                            <AboutImg />
+                        </div>
                     </div>
                     <div className="w-full px-8 lg:w-3/5 text-md md:text-lg text-justify mb-8">
                         RAIT is a premier international conference focusing on
@@ -47,7 +45,7 @@ export default function About() {
                         with an excellent program in AI/Machine Learning/Data
                         Science.
                         <div className="flex flex-col md:flex-row gap-10 mt-12">
-                            <div className="flex w-full flx">
+                            <div className="flex w-full px-4">
                                 <div className="mr-4 pt-2 text-[32px]">
                                     <svg
                                         width="29"
@@ -71,7 +69,7 @@ export default function About() {
                                     </p>
                                 </div>
                             </div>
-                            <div className="flex w-full">
+                            <div className="flex w-full px-4">
                                 <div className="mr-4 pt-2 text-[32px]">
                                     <SolidCalendar size={30} />
                                 </div>
@@ -80,8 +78,11 @@ export default function About() {
                                         Scheduled On
                                     </h5>
                                     <p className="text-sm">
-                                        Monday XYZ, 20XX
-                                        <br /> 6:00 PM
+                                        6:00 PM - 8:00 PM
+                                        <br />
+                                        Monday 20th april, 2023
+                                        <br />
+                                        XYZ
                                     </p>
                                 </div>
                             </div>
@@ -93,18 +94,994 @@ export default function About() {
     );
 }
 
-// <div className="bg-blue-100 p-10 sm:p-16 flex items-center flex-col">
-//     <h1 className="text-4xl font-semibold mx-auto mb-12">Welcome</h1>
-//     <div className="w-fullmd:max-w-screen-lg flex flex-col md:flex-row">
-//         <div className="w-full h-full md:pl-20">
-//             <Image
-//                 src="/assets/Illustration2.png"
-//                 alt="updates"
-//                 layout="responsive"
-//                 quality={100}
-//                 height={414}
-//                 width={508}
-//             />
-//         </div>
-//     </div>
-// </div>;
+const AboutImg = () => {
+    return (
+        <div className="w-full px-4 md:px-0 text-blue-500">
+            <div className="relative z-10">
+                <img
+                    src="/assets/about.jpg"
+                    alt="hero"
+                    className="rounded-lg max-h-[475px]"
+                />
+                <div className="absolute -bottom-6 -left-6 z-[-1] fill-current">
+                    <svg
+                        width="134"
+                        height="106"
+                        viewBox="0 0 134 106"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <circle
+                            cx="1.66667"
+                            cy="104"
+                            r="1.66667"
+                            transform="rotate(-90 1.66667 104)"
+                        />
+                        <circle
+                            cx="16.3333"
+                            cy="104"
+                            r="1.66667"
+                            transform="rotate(-90 16.3333 104)"
+                        />
+                        <circle
+                            cx="31"
+                            cy="104"
+                            r="1.66667"
+                            transform="rotate(-90 31 104)"
+                        />
+                        <circle
+                            cx="45.6667"
+                            cy="104"
+                            r="1.66667"
+                            transform="rotate(-90 45.6667 104)"
+                        />
+                        <circle
+                            cx="60.3333"
+                            cy="104"
+                            r="1.66667"
+                            transform="rotate(-90 60.3333 104)"
+                        />
+                        <circle
+                            cx="88.6667"
+                            cy="104"
+                            r="1.66667"
+                            transform="rotate(-90 88.6667 104)"
+                        />
+                        <circle
+                            cx="117.667"
+                            cy="104"
+                            r="1.66667"
+                            transform="rotate(-90 117.667 104)"
+                        />
+                        <circle
+                            cx="74.6667"
+                            cy="104"
+                            r="1.66667"
+                            transform="rotate(-90 74.6667 104)"
+                        />
+                        <circle
+                            cx="103"
+                            cy="104"
+                            r="1.66667"
+                            transform="rotate(-90 103 104)"
+                        />
+                        <circle
+                            cx="132"
+                            cy="104"
+                            r="1.66667"
+                            transform="rotate(-90 132 104)"
+                        />
+                        <circle
+                            cx="1.66667"
+                            cy="89.3333"
+                            r="1.66667"
+                            transform="rotate(-90 1.66667 89.3333)"
+                        />
+                        <circle
+                            cx="16.3333"
+                            cy="89.3333"
+                            r="1.66667"
+                            transform="rotate(-90 16.3333 89.3333)"
+                        />
+                        <circle
+                            cx="31"
+                            cy="89.3333"
+                            r="1.66667"
+                            transform="rotate(-90 31 89.3333)"
+                        />
+                        <circle
+                            cx="45.6667"
+                            cy="89.3333"
+                            r="1.66667"
+                            transform="rotate(-90 45.6667 89.3333)"
+                        />
+                        <circle
+                            cx="60.3333"
+                            cy="89.3338"
+                            r="1.66667"
+                            transform="rotate(-90 60.3333 89.3338)"
+                        />
+                        <circle
+                            cx="88.6667"
+                            cy="89.3338"
+                            r="1.66667"
+                            transform="rotate(-90 88.6667 89.3338)"
+                        />
+                        <circle
+                            cx="117.667"
+                            cy="89.3338"
+                            r="1.66667"
+                            transform="rotate(-90 117.667 89.3338)"
+                        />
+                        <circle
+                            cx="74.6667"
+                            cy="89.3338"
+                            r="1.66667"
+                            transform="rotate(-90 74.6667 89.3338)"
+                        />
+                        <circle
+                            cx="103"
+                            cy="89.3338"
+                            r="1.66667"
+                            transform="rotate(-90 103 89.3338)"
+                        />
+                        <circle
+                            cx="132"
+                            cy="89.3338"
+                            r="1.66667"
+                            transform="rotate(-90 132 89.3338)"
+                        />
+                        <circle
+                            cx="1.66667"
+                            cy="74.6673"
+                            r="1.66667"
+                            transform="rotate(-90 1.66667 74.6673)"
+                        />
+                        <circle
+                            cx="1.66667"
+                            cy="31.0003"
+                            r="1.66667"
+                            transform="rotate(-90 1.66667 31.0003)"
+                        />
+                        <circle
+                            cx="16.3333"
+                            cy="74.6668"
+                            r="1.66667"
+                            transform="rotate(-90 16.3333 74.6668)"
+                        />
+                        <circle
+                            cx="16.3333"
+                            cy="31.0003"
+                            r="1.66667"
+                            transform="rotate(-90 16.3333 31.0003)"
+                        />
+                        <circle
+                            cx="31"
+                            cy="74.6668"
+                            r="1.66667"
+                            transform="rotate(-90 31 74.6668)"
+                        />
+                        <circle
+                            cx="31"
+                            cy="31.0003"
+                            r="1.66667"
+                            transform="rotate(-90 31 31.0003)"
+                        />
+                        <circle
+                            cx="45.6667"
+                            cy="74.6668"
+                            r="1.66667"
+                            transform="rotate(-90 45.6667 74.6668)"
+                        />
+                        <circle
+                            cx="45.6667"
+                            cy="31.0003"
+                            r="1.66667"
+                            transform="rotate(-90 45.6667 31.0003)"
+                        />
+                        <circle
+                            cx="60.3333"
+                            cy="74.6668"
+                            r="1.66667"
+                            transform="rotate(-90 60.3333 74.6668)"
+                        />
+                        <circle
+                            cx="60.3333"
+                            cy="31.0001"
+                            r="1.66667"
+                            transform="rotate(-90 60.3333 31.0001)"
+                        />
+                        <circle
+                            cx="88.6667"
+                            cy="74.6668"
+                            r="1.66667"
+                            transform="rotate(-90 88.6667 74.6668)"
+                        />
+                        <circle
+                            cx="88.6667"
+                            cy="31.0001"
+                            r="1.66667"
+                            transform="rotate(-90 88.6667 31.0001)"
+                        />
+                        <circle
+                            cx="117.667"
+                            cy="74.6668"
+                            r="1.66667"
+                            transform="rotate(-90 117.667 74.6668)"
+                        />
+                        <circle
+                            cx="117.667"
+                            cy="31.0001"
+                            r="1.66667"
+                            transform="rotate(-90 117.667 31.0001)"
+                        />
+                        <circle
+                            cx="74.6667"
+                            cy="74.6668"
+                            r="1.66667"
+                            transform="rotate(-90 74.6667 74.6668)"
+                        />
+                        <circle
+                            cx="74.6667"
+                            cy="31.0001"
+                            r="1.66667"
+                            transform="rotate(-90 74.6667 31.0001)"
+                        />
+                        <circle
+                            cx="103"
+                            cy="74.6668"
+                            r="1.66667"
+                            transform="rotate(-90 103 74.6668)"
+                        />
+                        <circle
+                            cx="103"
+                            cy="31.0001"
+                            r="1.66667"
+                            transform="rotate(-90 103 31.0001)"
+                        />
+                        <circle
+                            cx="132"
+                            cy="74.6668"
+                            r="1.66667"
+                            transform="rotate(-90 132 74.6668)"
+                        />
+                        <circle
+                            cx="132"
+                            cy="31.0001"
+                            r="1.66667"
+                            transform="rotate(-90 132 31.0001)"
+                        />
+                        <circle
+                            cx="1.66667"
+                            cy="60.0003"
+                            r="1.66667"
+                            transform="rotate(-90 1.66667 60.0003)"
+                        />
+                        <circle
+                            cx="1.66667"
+                            cy="16.3336"
+                            r="1.66667"
+                            transform="rotate(-90 1.66667 16.3336)"
+                        />
+                        <circle
+                            cx="16.3333"
+                            cy="60.0003"
+                            r="1.66667"
+                            transform="rotate(-90 16.3333 60.0003)"
+                        />
+                        <circle
+                            cx="16.3333"
+                            cy="16.3336"
+                            r="1.66667"
+                            transform="rotate(-90 16.3333 16.3336)"
+                        />
+                        <circle
+                            cx="31"
+                            cy="60.0003"
+                            r="1.66667"
+                            transform="rotate(-90 31 60.0003)"
+                        />
+                        <circle
+                            cx="31"
+                            cy="16.3336"
+                            r="1.66667"
+                            transform="rotate(-90 31 16.3336)"
+                        />
+                        <circle
+                            cx="45.6667"
+                            cy="60.0003"
+                            r="1.66667"
+                            transform="rotate(-90 45.6667 60.0003)"
+                        />
+                        <circle
+                            cx="45.6667"
+                            cy="16.3336"
+                            r="1.66667"
+                            transform="rotate(-90 45.6667 16.3336)"
+                        />
+                        <circle
+                            cx="60.3333"
+                            cy="60.0003"
+                            r="1.66667"
+                            transform="rotate(-90 60.3333 60.0003)"
+                        />
+                        <circle
+                            cx="60.3333"
+                            cy="16.3336"
+                            r="1.66667"
+                            transform="rotate(-90 60.3333 16.3336)"
+                        />
+                        <circle
+                            cx="88.6667"
+                            cy="60.0003"
+                            r="1.66667"
+                            transform="rotate(-90 88.6667 60.0003)"
+                        />
+                        <circle
+                            cx="88.6667"
+                            cy="16.3336"
+                            r="1.66667"
+                            transform="rotate(-90 88.6667 16.3336)"
+                        />
+                        <circle
+                            cx="117.667"
+                            cy="60.0003"
+                            r="1.66667"
+                            transform="rotate(-90 117.667 60.0003)"
+                        />
+                        <circle
+                            cx="117.667"
+                            cy="16.3336"
+                            r="1.66667"
+                            transform="rotate(-90 117.667 16.3336)"
+                        />
+                        <circle
+                            cx="74.6667"
+                            cy="60.0003"
+                            r="1.66667"
+                            transform="rotate(-90 74.6667 60.0003)"
+                        />
+                        <circle
+                            cx="74.6667"
+                            cy="16.3336"
+                            r="1.66667"
+                            transform="rotate(-90 74.6667 16.3336)"
+                        />
+                        <circle
+                            cx="103"
+                            cy="60.0003"
+                            r="1.66667"
+                            transform="rotate(-90 103 60.0003)"
+                        />
+                        <circle
+                            cx="103"
+                            cy="16.3336"
+                            r="1.66667"
+                            transform="rotate(-90 103 16.3336)"
+                        />
+                        <circle
+                            cx="132"
+                            cy="60.0003"
+                            r="1.66667"
+                            transform="rotate(-90 132 60.0003)"
+                        />
+                        <circle
+                            cx="132"
+                            cy="16.3336"
+                            r="1.66667"
+                            transform="rotate(-90 132 16.3336)"
+                        />
+                        <circle
+                            cx="1.66667"
+                            cy="45.3336"
+                            r="1.66667"
+                            transform="rotate(-90 1.66667 45.3336)"
+                        />
+                        <circle
+                            cx="1.66667"
+                            cy="1.66683"
+                            r="1.66667"
+                            transform="rotate(-90 1.66667 1.66683)"
+                        />
+                        <circle
+                            cx="16.3333"
+                            cy="45.3336"
+                            r="1.66667"
+                            transform="rotate(-90 16.3333 45.3336)"
+                        />
+                        <circle
+                            cx="16.3333"
+                            cy="1.66683"
+                            r="1.66667"
+                            transform="rotate(-90 16.3333 1.66683)"
+                        />
+                        <circle
+                            cx="31"
+                            cy="45.3336"
+                            r="1.66667"
+                            transform="rotate(-90 31 45.3336)"
+                        />
+                        <circle
+                            cx="31"
+                            cy="1.66683"
+                            r="1.66667"
+                            transform="rotate(-90 31 1.66683)"
+                        />
+                        <circle
+                            cx="45.6667"
+                            cy="45.3336"
+                            r="1.66667"
+                            transform="rotate(-90 45.6667 45.3336)"
+                        />
+                        <circle
+                            cx="45.6667"
+                            cy="1.66683"
+                            r="1.66667"
+                            transform="rotate(-90 45.6667 1.66683)"
+                        />
+                        <circle
+                            cx="60.3333"
+                            cy="45.3338"
+                            r="1.66667"
+                            transform="rotate(-90 60.3333 45.3338)"
+                        />
+                        <circle
+                            cx="60.3333"
+                            cy="1.66707"
+                            r="1.66667"
+                            transform="rotate(-90 60.3333 1.66707)"
+                        />
+                        <circle
+                            cx="88.6667"
+                            cy="45.3338"
+                            r="1.66667"
+                            transform="rotate(-90 88.6667 45.3338)"
+                        />
+                        <circle
+                            cx="88.6667"
+                            cy="1.66707"
+                            r="1.66667"
+                            transform="rotate(-90 88.6667 1.66707)"
+                        />
+                        <circle
+                            cx="117.667"
+                            cy="45.3338"
+                            r="1.66667"
+                            transform="rotate(-90 117.667 45.3338)"
+                        />
+                        <circle
+                            cx="117.667"
+                            cy="1.66707"
+                            r="1.66667"
+                            transform="rotate(-90 117.667 1.66707)"
+                        />
+                        <circle
+                            cx="74.6667"
+                            cy="45.3338"
+                            r="1.66667"
+                            transform="rotate(-90 74.6667 45.3338)"
+                        />
+                        <circle
+                            cx="74.6667"
+                            cy="1.66707"
+                            r="1.66667"
+                            transform="rotate(-90 74.6667 1.66707)"
+                        />
+                        <circle
+                            cx="103"
+                            cy="45.3338"
+                            r="1.66667"
+                            transform="rotate(-90 103 45.3338)"
+                        />
+                        <circle
+                            cx="103"
+                            cy="1.66707"
+                            r="1.66667"
+                            transform="rotate(-90 103 1.66707)"
+                        />
+                        <circle
+                            cx="132"
+                            cy="45.3338"
+                            r="1.66667"
+                            transform="rotate(-90 132 45.3338)"
+                        />
+                        <circle
+                            cx="132"
+                            cy="1.66707"
+                            r="1.66667"
+                            transform="rotate(-90 132 1.66707)"
+                        />
+                    </svg>
+                </div>
+                <div className="absolute -top-6 -right-6 z-[-1] fill-current">
+                    <svg
+                        width="134"
+                        height="106"
+                        viewBox="0 0 134 106"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <circle
+                            cx="1.66667"
+                            cy="104"
+                            r="1.66667"
+                            transform="rotate(-90 1.66667 104)"
+                        />
+                        <circle
+                            cx="16.3333"
+                            cy="104"
+                            r="1.66667"
+                            transform="rotate(-90 16.3333 104)"
+                        />
+                        <circle
+                            cx="31"
+                            cy="104"
+                            r="1.66667"
+                            transform="rotate(-90 31 104)"
+                        />
+                        <circle
+                            cx="45.6667"
+                            cy="104"
+                            r="1.66667"
+                            transform="rotate(-90 45.6667 104)"
+                        />
+                        <circle
+                            cx="60.3333"
+                            cy="104"
+                            r="1.66667"
+                            transform="rotate(-90 60.3333 104)"
+                        />
+                        <circle
+                            cx="88.6667"
+                            cy="104"
+                            r="1.66667"
+                            transform="rotate(-90 88.6667 104)"
+                        />
+                        <circle
+                            cx="117.667"
+                            cy="104"
+                            r="1.66667"
+                            transform="rotate(-90 117.667 104)"
+                        />
+                        <circle
+                            cx="74.6667"
+                            cy="104"
+                            r="1.66667"
+                            transform="rotate(-90 74.6667 104)"
+                        />
+                        <circle
+                            cx="103"
+                            cy="104"
+                            r="1.66667"
+                            transform="rotate(-90 103 104)"
+                        />
+                        <circle
+                            cx="132"
+                            cy="104"
+                            r="1.66667"
+                            transform="rotate(-90 132 104)"
+                        />
+                        <circle
+                            cx="1.66667"
+                            cy="89.3333"
+                            r="1.66667"
+                            transform="rotate(-90 1.66667 89.3333)"
+                        />
+                        <circle
+                            cx="16.3333"
+                            cy="89.3333"
+                            r="1.66667"
+                            transform="rotate(-90 16.3333 89.3333)"
+                        />
+                        <circle
+                            cx="31"
+                            cy="89.3333"
+                            r="1.66667"
+                            transform="rotate(-90 31 89.3333)"
+                        />
+                        <circle
+                            cx="45.6667"
+                            cy="89.3333"
+                            r="1.66667"
+                            transform="rotate(-90 45.6667 89.3333)"
+                        />
+                        <circle
+                            cx="60.3333"
+                            cy="89.3338"
+                            r="1.66667"
+                            transform="rotate(-90 60.3333 89.3338)"
+                        />
+                        <circle
+                            cx="88.6667"
+                            cy="89.3338"
+                            r="1.66667"
+                            transform="rotate(-90 88.6667 89.3338)"
+                        />
+                        <circle
+                            cx="117.667"
+                            cy="89.3338"
+                            r="1.66667"
+                            transform="rotate(-90 117.667 89.3338)"
+                        />
+                        <circle
+                            cx="74.6667"
+                            cy="89.3338"
+                            r="1.66667"
+                            transform="rotate(-90 74.6667 89.3338)"
+                        />
+                        <circle
+                            cx="103"
+                            cy="89.3338"
+                            r="1.66667"
+                            transform="rotate(-90 103 89.3338)"
+                        />
+                        <circle
+                            cx="132"
+                            cy="89.3338"
+                            r="1.66667"
+                            transform="rotate(-90 132 89.3338)"
+                        />
+                        <circle
+                            cx="1.66667"
+                            cy="74.6673"
+                            r="1.66667"
+                            transform="rotate(-90 1.66667 74.6673)"
+                        />
+                        <circle
+                            cx="1.66667"
+                            cy="31.0003"
+                            r="1.66667"
+                            transform="rotate(-90 1.66667 31.0003)"
+                        />
+                        <circle
+                            cx="16.3333"
+                            cy="74.6668"
+                            r="1.66667"
+                            transform="rotate(-90 16.3333 74.6668)"
+                        />
+                        <circle
+                            cx="16.3333"
+                            cy="31.0003"
+                            r="1.66667"
+                            transform="rotate(-90 16.3333 31.0003)"
+                        />
+                        <circle
+                            cx="31"
+                            cy="74.6668"
+                            r="1.66667"
+                            transform="rotate(-90 31 74.6668)"
+                        />
+                        <circle
+                            cx="31"
+                            cy="31.0003"
+                            r="1.66667"
+                            transform="rotate(-90 31 31.0003)"
+                        />
+                        <circle
+                            cx="45.6667"
+                            cy="74.6668"
+                            r="1.66667"
+                            transform="rotate(-90 45.6667 74.6668)"
+                        />
+                        <circle
+                            cx="45.6667"
+                            cy="31.0003"
+                            r="1.66667"
+                            transform="rotate(-90 45.6667 31.0003)"
+                        />
+                        <circle
+                            cx="60.3333"
+                            cy="74.6668"
+                            r="1.66667"
+                            transform="rotate(-90 60.3333 74.6668)"
+                        />
+                        <circle
+                            cx="60.3333"
+                            cy="31.0001"
+                            r="1.66667"
+                            transform="rotate(-90 60.3333 31.0001)"
+                        />
+                        <circle
+                            cx="88.6667"
+                            cy="74.6668"
+                            r="1.66667"
+                            transform="rotate(-90 88.6667 74.6668)"
+                        />
+                        <circle
+                            cx="88.6667"
+                            cy="31.0001"
+                            r="1.66667"
+                            transform="rotate(-90 88.6667 31.0001)"
+                        />
+                        <circle
+                            cx="117.667"
+                            cy="74.6668"
+                            r="1.66667"
+                            transform="rotate(-90 117.667 74.6668)"
+                        />
+                        <circle
+                            cx="117.667"
+                            cy="31.0001"
+                            r="1.66667"
+                            transform="rotate(-90 117.667 31.0001)"
+                        />
+                        <circle
+                            cx="74.6667"
+                            cy="74.6668"
+                            r="1.66667"
+                            transform="rotate(-90 74.6667 74.6668)"
+                        />
+                        <circle
+                            cx="74.6667"
+                            cy="31.0001"
+                            r="1.66667"
+                            transform="rotate(-90 74.6667 31.0001)"
+                        />
+                        <circle
+                            cx="103"
+                            cy="74.6668"
+                            r="1.66667"
+                            transform="rotate(-90 103 74.6668)"
+                        />
+                        <circle
+                            cx="103"
+                            cy="31.0001"
+                            r="1.66667"
+                            transform="rotate(-90 103 31.0001)"
+                        />
+                        <circle
+                            cx="132"
+                            cy="74.6668"
+                            r="1.66667"
+                            transform="rotate(-90 132 74.6668)"
+                        />
+                        <circle
+                            cx="132"
+                            cy="31.0001"
+                            r="1.66667"
+                            transform="rotate(-90 132 31.0001)"
+                        />
+                        <circle
+                            cx="1.66667"
+                            cy="60.0003"
+                            r="1.66667"
+                            transform="rotate(-90 1.66667 60.0003)"
+                        />
+                        <circle
+                            cx="1.66667"
+                            cy="16.3336"
+                            r="1.66667"
+                            transform="rotate(-90 1.66667 16.3336)"
+                        />
+                        <circle
+                            cx="16.3333"
+                            cy="60.0003"
+                            r="1.66667"
+                            transform="rotate(-90 16.3333 60.0003)"
+                        />
+                        <circle
+                            cx="16.3333"
+                            cy="16.3336"
+                            r="1.66667"
+                            transform="rotate(-90 16.3333 16.3336)"
+                        />
+                        <circle
+                            cx="31"
+                            cy="60.0003"
+                            r="1.66667"
+                            transform="rotate(-90 31 60.0003)"
+                        />
+                        <circle
+                            cx="31"
+                            cy="16.3336"
+                            r="1.66667"
+                            transform="rotate(-90 31 16.3336)"
+                        />
+                        <circle
+                            cx="45.6667"
+                            cy="60.0003"
+                            r="1.66667"
+                            transform="rotate(-90 45.6667 60.0003)"
+                        />
+                        <circle
+                            cx="45.6667"
+                            cy="16.3336"
+                            r="1.66667"
+                            transform="rotate(-90 45.6667 16.3336)"
+                        />
+                        <circle
+                            cx="60.3333"
+                            cy="60.0003"
+                            r="1.66667"
+                            transform="rotate(-90 60.3333 60.0003)"
+                        />
+                        <circle
+                            cx="60.3333"
+                            cy="16.3336"
+                            r="1.66667"
+                            transform="rotate(-90 60.3333 16.3336)"
+                        />
+                        <circle
+                            cx="88.6667"
+                            cy="60.0003"
+                            r="1.66667"
+                            transform="rotate(-90 88.6667 60.0003)"
+                        />
+                        <circle
+                            cx="88.6667"
+                            cy="16.3336"
+                            r="1.66667"
+                            transform="rotate(-90 88.6667 16.3336)"
+                        />
+                        <circle
+                            cx="117.667"
+                            cy="60.0003"
+                            r="1.66667"
+                            transform="rotate(-90 117.667 60.0003)"
+                        />
+                        <circle
+                            cx="117.667"
+                            cy="16.3336"
+                            r="1.66667"
+                            transform="rotate(-90 117.667 16.3336)"
+                        />
+                        <circle
+                            cx="74.6667"
+                            cy="60.0003"
+                            r="1.66667"
+                            transform="rotate(-90 74.6667 60.0003)"
+                        />
+                        <circle
+                            cx="74.6667"
+                            cy="16.3336"
+                            r="1.66667"
+                            transform="rotate(-90 74.6667 16.3336)"
+                        />
+                        <circle
+                            cx="103"
+                            cy="60.0003"
+                            r="1.66667"
+                            transform="rotate(-90 103 60.0003)"
+                        />
+                        <circle
+                            cx="103"
+                            cy="16.3336"
+                            r="1.66667"
+                            transform="rotate(-90 103 16.3336)"
+                        />
+                        <circle
+                            cx="132"
+                            cy="60.0003"
+                            r="1.66667"
+                            transform="rotate(-90 132 60.0003)"
+                        />
+                        <circle
+                            cx="132"
+                            cy="16.3336"
+                            r="1.66667"
+                            transform="rotate(-90 132 16.3336)"
+                        />
+                        <circle
+                            cx="1.66667"
+                            cy="45.3336"
+                            r="1.66667"
+                            transform="rotate(-90 1.66667 45.3336)"
+                        />
+                        <circle
+                            cx="1.66667"
+                            cy="1.66683"
+                            r="1.66667"
+                            transform="rotate(-90 1.66667 1.66683)"
+                        />
+                        <circle
+                            cx="16.3333"
+                            cy="45.3336"
+                            r="1.66667"
+                            transform="rotate(-90 16.3333 45.3336)"
+                        />
+                        <circle
+                            cx="16.3333"
+                            cy="1.66683"
+                            r="1.66667"
+                            transform="rotate(-90 16.3333 1.66683)"
+                        />
+                        <circle
+                            cx="31"
+                            cy="45.3336"
+                            r="1.66667"
+                            transform="rotate(-90 31 45.3336)"
+                        />
+                        <circle
+                            cx="31"
+                            cy="1.66683"
+                            r="1.66667"
+                            transform="rotate(-90 31 1.66683)"
+                        />
+                        <circle
+                            cx="45.6667"
+                            cy="45.3336"
+                            r="1.66667"
+                            transform="rotate(-90 45.6667 45.3336)"
+                        />
+                        <circle
+                            cx="45.6667"
+                            cy="1.66683"
+                            r="1.66667"
+                            transform="rotate(-90 45.6667 1.66683)"
+                        />
+                        <circle
+                            cx="60.3333"
+                            cy="45.3338"
+                            r="1.66667"
+                            transform="rotate(-90 60.3333 45.3338)"
+                        />
+                        <circle
+                            cx="60.3333"
+                            cy="1.66707"
+                            r="1.66667"
+                            transform="rotate(-90 60.3333 1.66707)"
+                        />
+                        <circle
+                            cx="88.6667"
+                            cy="45.3338"
+                            r="1.66667"
+                            transform="rotate(-90 88.6667 45.3338)"
+                        />
+                        <circle
+                            cx="88.6667"
+                            cy="1.66707"
+                            r="1.66667"
+                            transform="rotate(-90 88.6667 1.66707)"
+                        />
+                        <circle
+                            cx="117.667"
+                            cy="45.3338"
+                            r="1.66667"
+                            transform="rotate(-90 117.667 45.3338)"
+                        />
+                        <circle
+                            cx="117.667"
+                            cy="1.66707"
+                            r="1.66667"
+                            transform="rotate(-90 117.667 1.66707)"
+                        />
+                        <circle
+                            cx="74.6667"
+                            cy="45.3338"
+                            r="1.66667"
+                            transform="rotate(-90 74.6667 45.3338)"
+                        />
+                        <circle
+                            cx="74.6667"
+                            cy="1.66707"
+                            r="1.66667"
+                            transform="rotate(-90 74.6667 1.66707)"
+                        />
+                        <circle
+                            cx="103"
+                            cy="45.3338"
+                            r="1.66667"
+                            transform="rotate(-90 103 45.3338)"
+                        />
+                        <circle
+                            cx="103"
+                            cy="1.66707"
+                            r="1.66667"
+                            transform="rotate(-90 103 1.66707)"
+                        />
+                        <circle
+                            cx="132"
+                            cy="45.3338"
+                            r="1.66667"
+                            transform="rotate(-90 132 45.3338)"
+                        />
+                        <circle
+                            cx="132"
+                            cy="1.66707"
+                            r="1.66667"
+                            transform="rotate(-90 132 1.66707)"
+                        />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    );
+};

@@ -79,7 +79,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="md:h-16 h-24 w-full flex flex-col md:flex-row items-center justify-center md:justify-between px-8 border border-t border-gray-300">
+            <div className="md:h-16 h-24 w-full flex flex-col md:flex-row items-center justify-center md:justify-between px-8 border-t border-gray-300">
                 <span className="text-sm text-gray-900 sm:text-center dark:text-gray-400">
                     © {new Date().getFullYear()}{" "}
                     <a href="https://Rait.com/" className="hover:underline">

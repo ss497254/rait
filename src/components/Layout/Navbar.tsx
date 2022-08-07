@@ -150,7 +150,7 @@ const NavBar = () => {
                             <nav className="grid gap-y-6">
                                 <Link href="/">
                                     <button
-                                        className="p-2 flex items-center rounded-md hover:bg-gray-50"
+                                        className="p-1 flex items-center"
                                         onClick={() => setOpen(!open)}
                                     >
                                         <span className="flex-shrink-0 w-6 text-indigo-600">
@@ -163,7 +163,7 @@ const NavBar = () => {
                                 </Link>
                                 <Link href="/authors">
                                     <button
-                                        className="p-2 flex items-center rounded-md hover:bg-gray-50"
+                                        className="p-1 flex items-center"
                                         onClick={() => setOpen(!open)}
                                     >
                                         <svg
@@ -188,7 +188,7 @@ const NavBar = () => {
                                 </Link>
                                 <Link href="/committee">
                                     <button
-                                        className="p-2 flex items-center rounded-md hover:bg-gray-50"
+                                        className="p-1 flex items-center"
                                         onClick={() => setOpen(!open)}
                                     >
                                         <svg
@@ -213,7 +213,7 @@ const NavBar = () => {
                                 </Link>
                                 <Link href="/sponsorship">
                                     <button
-                                        className="p-2 flex items-center rounded-md hover:bg-gray-50"
+                                        className="p-1 flex items-center"
                                         onClick={() => setOpen(!open)}
                                     >
                                         <svg
@@ -238,7 +238,7 @@ const NavBar = () => {
                                 </Link>
                                 <Link href="/contact">
                                     <button
-                                        className="p-2 flex items-center rounded-md hover:bg-gray-50"
+                                        className="p-1 flex items-center"
                                         onClick={() => setOpen(!open)}
                                     >
                                         <svg
