@@ -10,7 +10,7 @@ const NavBar = () => {
     const targetRef = useRef(null);
 
     const handleScroll = () => {
-        if (window.scrollY < 400) {
+        if (window.scrollY < 150) {
             setIsScrolled(false);
         } else {
             setIsScrolled(true);

@@ -18,8 +18,10 @@ function App({ Component, pageProps }: AppProps) {
     return (
         <>
             <Head>
-                <title>Rait </title>
-                <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+                <title>
+                    RAIT (Recent Advancements in Information Technology) 2023
+                </title>
+                <link rel="icon" href="/favicon.png" type="image/x-icon" />
                 <link rel="manifest" href="/manifest.json" />
                 <meta
                     name="viewport"

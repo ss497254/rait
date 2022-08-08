@@ -5,7 +5,7 @@ export default function Hero() {
         <div
             className="min-h-screen w-full flex justify-center bg-gray-700"
             style={{
-                backgroundImage: "url(/assets/bg.jpg)",
+                backgroundImage: "url(/assets/bg.webp)",
                 backgroundPosition: "center",
                 backgroundSize: "cover",
             }}
@@ -13,11 +13,7 @@ export default function Hero() {
             <div className="max-w-3xl px-8 py-8 flex items-center mt-[5vh]">
                 <div className="flex flex-col justify-center items-start text-white font-bold">
                     <h1 className="text-4xl lg:text-5xl xl:text-5xl leading-normal">
-                        RAIT (Recent Advancements in Information Technology)
-                        {/* Want to learn about new technologies{" "}
-                        <strong>
-                        </strong> */}
-                        .
+                        RAIT (Recent Advancements in Information Technology) .
                         <br />
                         <span className="text-3xl">
                             20<span className="text-green-500">22</span> - 20
