@@ -114,7 +114,7 @@ const NavBar = () => {
                         : "opacity-0 hidden scale-95 absolute top-0 inset-x-0 p-2 transition transform origin-top-right lg:hidden"
                 }
             >
-                <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
+                <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-200">
                     <div className="pt-5 pb-6 px-5">
                         <div className="flex items-center justify-between">
                             <img
@@ -153,7 +153,7 @@ const NavBar = () => {
                                         className="p-1 flex items-center"
                                         onClick={() => setOpen(!open)}
                                     >
-                                        <span className="flex-shrink-0 w-6 text-blue-500">
+                                        <span className="flex-shrink-0 w-6 text-blue-600">
                                             <SolidHome size={18} />
                                         </span>
                                         <span className="ml-5 font-semibold text-gray-900">
@@ -167,7 +167,7 @@ const NavBar = () => {
                                         onClick={() => setOpen(!open)}
                                     >
                                         <svg
-                                            className="flex-shrink-0 h-6 w-6 text-blue-500"
+                                            className="flex-shrink-0 h-6 w-6 text-blue-600"
                                             xmlns="http://www.w3.org/2000/svg"
                                             fill="none"
                                             viewBox="0 0 24 24"
@@ -192,7 +192,7 @@ const NavBar = () => {
                                         onClick={() => setOpen(!open)}
                                     >
                                         <svg
-                                            className="flex-shrink-0 h-6 w-6 text-blue-500"
+                                            className="flex-shrink-0 h-6 w-6 text-blue-600"
                                             xmlns="http://www.w3.org/2000/svg"
                                             fill="none"
                                             viewBox="0 0 24 24"
@@ -217,7 +217,7 @@ const NavBar = () => {
                                         onClick={() => setOpen(!open)}
                                     >
                                         <svg
-                                            className="flex-shrink-0 h-6 w-6 text-blue-500"
+                                            className="flex-shrink-0 h-6 w-6 text-blue-600"
                                             xmlns="http://www.w3.org/2000/svg"
                                             fill="none"
                                             viewBox="0 0 24 24"
@@ -242,7 +242,7 @@ const NavBar = () => {
                                         onClick={() => setOpen(!open)}
                                     >
                                         <svg
-                                            className="flex-shrink-0 h-6 w-6 text-blue-500"
+                                            className="flex-shrink-0 h-6 w-6 text-blue-600"
                                             xmlns="http://www.w3.org/2000/svg"
                                             fill="none"
                                             viewBox="0 0 24 24"
@@ -264,7 +264,7 @@ const NavBar = () => {
                             </nav>
                         </div>
                     </div>
-                    {/* <div className="py-6 px-5 space-y-6"></div> */}
+                    <div className="p-4 text-gray-700">IIT(ISM) Dhanbad</div>
                 </div>
             </div>
         </div>

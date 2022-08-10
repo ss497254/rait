@@ -13,16 +13,17 @@ export default function Contact() {
                             Committee
                         </span>
                         <h2 className="mt-5 text-xl font-semibold">
-                            Let's talk about <br />
-                            Love to hear from you!
+                            Organizing Committees <br />
+                            Senior Program Committee
+                            <br /> Program Committee
                         </h2>
                     </div>
                 </div>
             </HeroBackground>
             <h2 className="text-center w-full my-16 text-2xl md:text-3xl font-bold">
-                Our Committee
+                Organizing Committee
             </h2>
-            <div className="mb-12 p-16 flex w-full gap-16 flex-col flex-wrap md:flex-row">
+            <div className="p-16 pb-0 flex w-full gap-16 flex-col flex-wrap md:flex-row">
                 <div className="mb-8 flex flex-1 min-w-[300px]">
                     <SpeakerDetail />
                 </div>
@@ -32,6 +33,25 @@ export default function Contact() {
                 <div className="mb-8 flex flex-1 min-w-[300px]">
                     <SpeakerDetail />
                 </div>
+            </div>
+            <h2 className="text-center w-full my-16 text-2xl md:text-3xl font-bold">
+                Senior Program Committee
+            </h2>
+            <div className="p-16 pb-0 flex w-full gap-16 flex-col flex-wrap md:flex-row">
+                <div className="mb-8 flex flex-1 min-w-[300px]">
+                    <SpeakerDetail />
+                </div>
+                <div className="mb-8 flex flex-1 min-w-[300px]">
+                    <SpeakerDetail />
+                </div>
+                <div className="mb-8 flex flex-1 min-w-[300px]">
+                    <SpeakerDetail />
+                </div>
+            </div>
+            <h2 className="text-center w-full my-16 text-2xl md:text-3xl font-bold">
+                Program Committee
+            </h2>
+            <div className="mb-12 pb-0 flex w-full gap-16 flex-col flex-wrap md:flex-row">
                 <div className="mb-8 flex flex-1 min-w-[300px]">
                     <SpeakerDetail />
                 </div>

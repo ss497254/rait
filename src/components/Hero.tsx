@@ -10,7 +10,7 @@ export default function Hero() {
                 backgroundSize: "cover",
             }}
         >
-            <div className="max-w-3xl px-8 py-8 flex items-center mt-[5vh]">
+            <div className="max-w-3xl px-8 py-8 flex items-center">
                 <div className="flex flex-col justify-center items-start text-white font-bold">
                     <h1 className="text-4xl lg:text-5xl xl:text-5xl leading-normal">
                         RAIT (Recent Advancements in Information Technology).
