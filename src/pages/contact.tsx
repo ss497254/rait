@@ -89,7 +89,7 @@ export default function Contact() {
                 </div>
             </div>
             <hr />
-            <h2 className="text-center w-full mt-16 text-3xl font-bold">
+            <h2 className="text-center w-full mt-16 text-2xl md:text-3xl font-bold">
                 Computer Science and Engineering Department
             </h2>
             <iframe

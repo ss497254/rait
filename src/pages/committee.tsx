@@ -19,7 +19,7 @@ export default function Contact() {
                     </div>
                 </div>
             </HeroBackground>
-            <h2 className="text-center w-full my-16 text-3xl font-bold">
+            <h2 className="text-center w-full my-16 text-2xl md:text-3xl font-bold">
                 Our Committee
             </h2>
             <div className="mb-12 p-16 flex w-full gap-16 flex-col flex-wrap md:flex-row">

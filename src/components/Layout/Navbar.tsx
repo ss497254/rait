@@ -153,7 +153,7 @@ const NavBar = () => {
                                         className="p-1 flex items-center"
                                         onClick={() => setOpen(!open)}
                                     >
-                                        <span className="flex-shrink-0 w-6 text-indigo-600">
+                                        <span className="flex-shrink-0 w-6 text-blue-500">
                                             <SolidHome size={18} />
                                         </span>
                                         <span className="ml-5 font-semibold text-gray-900">
@@ -167,7 +167,7 @@ const NavBar = () => {
                                         onClick={() => setOpen(!open)}
                                     >
                                         <svg
-                                            className="flex-shrink-0 h-6 w-6 text-indigo-600"
+                                            className="flex-shrink-0 h-6 w-6 text-blue-500"
                                             xmlns="http://www.w3.org/2000/svg"
                                             fill="none"
                                             viewBox="0 0 24 24"
@@ -192,7 +192,7 @@ const NavBar = () => {
                                         onClick={() => setOpen(!open)}
                                     >
                                         <svg
-                                            className="flex-shrink-0 h-6 w-6 text-indigo-600"
+                                            className="flex-shrink-0 h-6 w-6 text-blue-500"
                                             xmlns="http://www.w3.org/2000/svg"
                                             fill="none"
                                             viewBox="0 0 24 24"
@@ -217,7 +217,7 @@ const NavBar = () => {
                                         onClick={() => setOpen(!open)}
                                     >
                                         <svg
-                                            className="flex-shrink-0 h-6 w-6 text-indigo-600"
+                                            className="flex-shrink-0 h-6 w-6 text-blue-500"
                                             xmlns="http://www.w3.org/2000/svg"
                                             fill="none"
                                             viewBox="0 0 24 24"
@@ -242,7 +242,7 @@ const NavBar = () => {
                                         onClick={() => setOpen(!open)}
                                     >
                                         <svg
-                                            className="flex-shrink-0 h-6 w-6 text-indigo-600"
+                                            className="flex-shrink-0 h-6 w-6 text-blue-500"
                                             xmlns="http://www.w3.org/2000/svg"
                                             fill="none"
                                             viewBox="0 0 24 24"
