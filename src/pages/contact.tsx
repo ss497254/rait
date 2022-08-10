@@ -54,13 +54,13 @@ export default function Contact() {
                     </div>
                     <div>
                         <h5 className="mb-6 text-lg font-semibold">
-                            How Can We Help?
+                            How to reach?
                         </h5>
                         <p className="text-base text-body-color">
-                            info@yourdomain.com
+                            info@iitism.ac.in
                         </p>
                         <p className="text-base text-body-color">
-                            contact@yourdomain.com
+                            contact@iitism.ac.in
                         </p>
                     </div>
                 </div>
@@ -77,17 +77,29 @@ export default function Contact() {
                     </div>
                     <div>
                         <h5 className="mb-6 text-lg font-semibold">
-                            How Can We Help?
+                            How to reach?
                         </h5>
                         <p className="text-base text-body-color">
-                            info@yourdomain.com
+                            info@iitism.ac.in
                         </p>
                         <p className="text-base text-body-color">
-                            contact@yourdomain.com
+                            contact@iitism.ac.in
                         </p>
                     </div>
                 </div>
             </div>
+            <hr />
+            <h2 className="text-center w-full mt-16 text-3xl font-bold">
+                Computer Science and Engineering Department
+            </h2>
+            <iframe
+                className="px-8 w-full my-16"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2308.2264976951114!2d86.4403420038952!3d23.812167160457953!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaa5973abb60f9843!2sDepartment%20Of%20Computer%20Science%20And%20Engineering!5e0!3m2!1sen!2sin!4v1660121262466!5m2!1sen!2sin"
+                width="600"
+                height="450"
+                style={{ border: 0 }}
+                loading="lazy"
+            ></iframe>
         </section>
     );
 }

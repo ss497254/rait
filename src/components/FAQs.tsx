@@ -25,7 +25,7 @@ const FAQ = () => {
                 </div>
                 <div className="w-full">
                     <h4 className="text-base font-semibold text-black sm:text-lg">
-                        Do you have plan to releasing Play Pro?
+                        Do you should attend RAIT?
                     </h4>
                 </div>
             </button>
@@ -37,10 +37,11 @@ const FAQ = () => {
                 }`}
             >
                 <p className="py-3 text-base leading-relaxed text-bodyColor">
-                    It takes 2-3 weeks to get your first blog post ready. That
-                    includes the in-depth research & creation of your monthly
-                    content marketing strategy that we do before writing your
-                    first blog post, Ipsum available .
+                    RAIT is a conference on advanced networking and
+                    communications topics. Conferences focuses on promotion of
+                    intense conversation between academic and industry to bridge
+                    the gap between academic research, industry initiatives, and
+                    governmental policies.
                 </p>
             </div>
         </div>

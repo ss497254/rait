@@ -21,12 +21,10 @@ export default function ImportantDates() {
                     <tbody>
                         <tr className="bg-white border-b hover:bg-gray-100">
                             <td className="py-4 px-4 min-w-[18vw]">
-                                September 15, 2022
+                                October 15, 2022
                             </td>
                             <td className="py-4 px-2 w-full">
-                                Paper submission deadline in Demo and Young
-                                Researchers' Symposium tracks Tutorial proposal
-                                deadline
+                                Full Paper submission
                             </td>
                         </tr>
                         <tr className="bg-white border-b hover:bg-gray-100">

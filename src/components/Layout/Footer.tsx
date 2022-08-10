@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
     return (
-        <footer className="dark:bg-gray-900 border border-t">
+        <footer className="bg-blue-100 border border-t">
             <div className="flex flex-col md:flex-row md:justify-between p-8 md:p-12">
                 <div className="mb-8 md:mb-0">
                     <div className="flex items-center">
@@ -14,11 +14,11 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-                    <div>
+                    <div className="max-w-[200px]">
                         <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                             Resources
                         </h2>
-                        <ul className="text-gray-700 dark:text-gray-400">
+                        <ul className="text-gray-700 text-sm">
                             <li className="mb-4">
                                 <a
                                     href="https://Rait.com/"
@@ -28,43 +28,35 @@ export default function Footer() {
                                 </a>
                             </li>
                             <li>
-                                <a
-                                    href="https://tailwindcss.com/"
-                                    className="hover:underline"
-                                >
-                                    Tailwind CSS
+                                <a href="#" className="hover:underline">
+                                    Indian Institute of Technology
+                                    <br /> Dhanbad
                                 </a>
                             </li>
                         </ul>
                     </div>
-                    <div>
+                    <div className="max-w-[200px]">
                         <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                             Follow us
                         </h2>
-                        <ul className="text-gray-700 dark:text-gray-400">
+                        <ul className="text-gray-700 text-sm">
                             <li className="mb-4">
-                                <a
-                                    href="https://github.com/themesberg/Rait"
-                                    className="hover:underline "
-                                >
-                                    Github
+                                <a href="#" className="hover:underline ">
+                                    Facebook
                                 </a>
                             </li>
                             <li>
-                                <a
-                                    href="https://discord.gg/4eeurUVvTy"
-                                    className="hover:underline"
-                                >
-                                    Discord
+                                <a href="#" className="hover:underline">
+                                    Twitter
                                 </a>
                             </li>
                         </ul>
                     </div>
-                    <div>
+                    <div className="max-w-[200px]">
                         <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                             Legal
                         </h2>
-                        <ul className="text-gray-700 dark:text-gray-400">
+                        <ul className="text-gray-700 text-sm">
                             <li className="mb-4">
                                 <a href="#" className="hover:underline">
                                     Privacy Policy

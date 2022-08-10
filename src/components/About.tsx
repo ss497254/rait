@@ -31,19 +31,25 @@ export default function About() {
                         </div>
                     </div>
                     <div className="w-full px-8 lg:w-3/5 text-md md:text-lg text-justify mb-8">
-                        RAIT is a premier international conference focusing on
-                        scientific work in Databases, Data Sciences and their
-                        applications. Being held for the 6th time as a common
-                        conference bringing together the COMAD and the CODS
-                        communities, this conference invites researchers in the
-                        field of databases, data sciences and their applications
-                        to submit their original work.
+                        RAIT is a conference on advanced networking and
+                        communications topics. Conferences focuses on promotion
+                        of intense conversation between academic and industry to
+                        bridge the gap between academic research, industry
+                        initiatives, and governmental policies. This is achieved
+                        by panel discussions, keynotes, invited talks, and
+                        industry exhibits, where academia is exposed to
+                        state-of-the-practice and results from trials and
+                        interoperability experiments. The industry, in turn,
+                        benefits from exposure to leading-edge research as well
+                        as an opportunity to communicate and collaborate with
+                        academic researchers regarding practical problems.
                         <br />
                         <br />
-                        COMAD, a conference directed primarily at data
-                        management started in 1989 while CODS started in 2014
-                        with an excellent program in AI/Machine Learning/Data
-                        Science.
+                        It focuses mainly on areas of Recent Advances in Network
+                        and Communications Cryptography and Network Security
+                        Embedded Systems and VLS Image, Video and Signal and
+                        Processing Soft Computing, Artificial Intelligence and
+                        Machine Learning Algorithms Information Technology
                         <div className="flex flex-col md:flex-row gap-10 mt-12">
                             <div className="flex w-full px-4">
                                 <div className="mr-4 pt-2 text-[32px]">
