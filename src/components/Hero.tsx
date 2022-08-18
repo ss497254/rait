@@ -5,7 +5,7 @@ export default function Hero() {
         <div
             className="min-h-screen w-full flex justify-center bg-gray-700"
             style={{
-                backgroundImage: "url(/assets/bg.webp)",
+                backgroundImage: "url(/assets/bg.jpg)",
                 backgroundPosition: "center",
                 backgroundSize: "cover",
             }}

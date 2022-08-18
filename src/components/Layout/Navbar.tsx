@@ -118,7 +118,7 @@ const NavBar = () => {
                     <div className="pt-5 pb-6 px-5">
                         <div className="flex items-center justify-between">
                             <img
-                                src="/assets/logo.png"
+                                src="/assets/real_logo.png"
                                 className="ml-1 h-7"
                                 alt="Rait Logo"
                             />
