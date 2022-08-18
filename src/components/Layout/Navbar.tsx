@@ -10,7 +10,7 @@ const NavBar = () => {
     const targetRef = useRef(null);
 
     const handleScroll = () => {
-        if (window.scrollY < 150) {
+        if (window.scrollY < 50) {
             setIsScrolled(false);
         } else {
             setIsScrolled(true);
@@ -45,10 +45,10 @@ const NavBar = () => {
                 <div className="flex justify-start lg:w-0 md:flex-1">
                     <Link href="/">
                         <img
-                            src={`/assets/logo${
-                                isScrolled ? "" : "-white"
+                            src={`/assets/real_logo${
+                                isScrolled ? "" : "-dark"
                             }.png`}
-                            className="h-8 px-[3%] lg:px-[8%]"
+                            className="h-12 px-[3%] lg:px-[8%]"
                             alt="Rait Logo"
                         />
                     </Link>
@@ -66,7 +66,7 @@ const NavBar = () => {
                     </Link>
                     <Link href="committee">
                         <span className="mx-2 px-4 flex items-center h-10 rounded-[3px] cursor-pointer hover:bg-blue-700 font-semibold hover:text-white">
-                            Committees
+                            Committee
                         </span>
                     </Link>
                     <Link href="sponsorship">
@@ -84,7 +84,7 @@ const NavBar = () => {
                     <div
                         className={`bg-white ${
                             isScrolled ? "text-gray-600" : "text-gray-100"
-                        } bg-opacity-25 rounded-md p-2 inline-flex items-center justify-center hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500`}
+                        } bg-opacity-25 rounded-md p-2 inline-flex items-center justify-center hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500`}
                         onClick={() => setOpen(!open)}
                     >
                         <svg
@@ -125,7 +125,7 @@ const NavBar = () => {
                             <div className="-mr-2">
                                 <button
                                     type="button"
-                                    className="bg-white rounded-md p-2 inline-flex items-center justify-center  text-gray-500 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                                    className="bg-white rounded-md p-2 inline-flex items-center justify-center  text-gray-500 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
                                     onClick={() => setOpen(!open)}
                                 >
                                     <svg

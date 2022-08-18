@@ -1,6 +1,13 @@
 import React from "react";
 
-export default function ImportantDates() {
+export type row = {
+    from: string;
+    to: string;
+    content: string;
+};
+
+export default function ImportantDates({ dates = [] }: { dates: row[] }) {
+    if (!dates) dates = [];
     return (
         <div className="py-16 md:px-12 mb-8">
             <h2 className="text-center text-3xl mb-12 font-semibold">
@@ -10,70 +17,37 @@ export default function ImportantDates() {
                 <table className="w-full text-left text-gray-800">
                     <thead className="text-gray-700 uppercase text-lg bg-blue-200">
                         <tr>
-                            <th scope="col" className="py-5 px-4">
+                            <th
+                                scope="col"
+                                className="py-5 px-4 w-1/3 text-center"
+                            >
                                 Date
                             </th>
-                            <th scope="col" className="py-5 px-2 w-full">
+                            <th
+                                scope="col"
+                                className="py-5 px-2 w-2/3 text-center"
+                            >
                                 Event
                             </th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr className="bg-white border-b hover:bg-gray-100">
-                            <td className="py-4 px-4 min-w-[18vw]">
-                                October 15, 2022
-                            </td>
-                            <td className="py-4 px-2 w-full">
-                                Full Paper submission
-                            </td>
-                        </tr>
-                        <tr className="bg-white border-b hover:bg-gray-100">
-                            <td className="py-4 px-4 min-w-[18vw]">
-                                September 15, 2022
-                            </td>
-                            <td className="py-4 px-2 w-full">
-                                Paper submission deadline in Demo and Young
-                                Researchers' Symposium tracks Tutorial proposal
-                                deadline
-                            </td>
-                        </tr>
-                        <tr className="bg-white border-b hover:bg-gray-100">
-                            <td className="py-4 px-4 min-w-[18vw]">
-                                September 15, 2022
-                            </td>
-                            <td className="py-4 px-2 w-full">
-                                Paper submission deadline in Demo and Young
-                                Researchers' Symposium tracks Tutorial proposal
-                                deadline
-                            </td>
-                        </tr>
-                        <tr className="bg-white border-b hover:bg-gray-100">
-                            <td className="py-4 px-4 min-w-[18vw]">
-                                September 15, 2022
-                            </td>
-                            <td className="py-4 px-2 w-full">
-                                Paper submission deadline in Demo and Young
-                                Researchers' Symposium tracks Tutorial proposal
-                                deadline
-                            </td>
-                        </tr>
-                        <tr className="bg-white border-b hover:bg-gray-100">
-                            <td className="py-4 px-4 min-w-[18vw]">
-                                September 15, 2022
-                            </td>
-                            <td className="py-4 px-2 w-full">
-                                Paper submission deadline in Demo and Young
-                                Researchers' Symposium tracks Tutorial proposal
-                                deadline
-                            </td>
-                        </tr>
+                        {dates.map((row: row, index) => (
+                            <tr
+                                className="bg-white border-b hover:bg-gray-100"
+                                key={index}
+                            >
+                                <td className="py-4 px-4 w-1/3 text-center border-r">
+                                    {row.from}
+                                    {" - "}
+                                    {row.to}
+                                </td>
+                                <td className="px-2 w-2/3 text-center">
+                                    {row.content}
+                                </td>
+                            </tr>
+                        ))}
                     </tbody>
-                    <tfoot className="text-gray-700 bg-blue-200">
-                        <td className="py-3 px-4 min-w-[18vw]"></td>
-                        <td className="py-3 px-6 md:px-8 font-bold text-blue-600 hover:underline w-full text-right">
-                            See more
-                        </td>
-                    </tfoot>
                 </table>
             </div>
         </div>

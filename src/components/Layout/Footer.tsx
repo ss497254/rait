@@ -7,8 +7,8 @@ export default function Footer() {
                 <div className="mb-8 md:mb-0">
                     <div className="flex items-center">
                         <img
-                            src="/assets/logo.png"
-                            className="mr-3 h-9"
+                            src="/assets/real_logo.png"
+                            className="mr-3 h-14"
                             alt="Rait Logo"
                         />
                     </div>
