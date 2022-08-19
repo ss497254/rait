@@ -43,12 +43,12 @@ export default function Hello() {
             <Hero />
             <About />
             <Speakers />
-            <Pricing />
+            {/* <Pricing /> */}
             <Updates />
-            <FeatureBlocks />
+            {/* <FeatureBlocks /> */}
             <ImportantDates dates={dates} />
             {/* <Testimonials /> */}
-            <FAQs />
+            {/* <FAQs /> */}
         </>
     );
 }

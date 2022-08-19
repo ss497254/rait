@@ -19,15 +19,15 @@ export default function ImportantDates({ dates = [] }: { dates: row[] }) {
                         <tr>
                             <th
                                 scope="col"
-                                className="py-5 px-4 w-1/3 text-center"
+                                className="py-5 px-2 w-1/2 text-center"
                             >
-                                Date
+                                Event
                             </th>
                             <th
                                 scope="col"
-                                className="py-5 px-2 w-2/3 text-center"
+                                className="py-5 px-4 w-1/2 text-center"
                             >
-                                Event
+                                Deadline
                             </th>
                         </tr>
                     </thead>
@@ -37,13 +37,11 @@ export default function ImportantDates({ dates = [] }: { dates: row[] }) {
                                 className="bg-white border-b hover:bg-gray-100"
                                 key={index}
                             >
-                                <td className="py-4 px-4 w-1/3 text-center border-r">
-                                    {row.from}
-                                    {" - "}
-                                    {row.to}
-                                </td>
-                                <td className="px-2 w-2/3 text-center">
+                                <td className="px-2 w-1/2 text-center border-r-2">
                                     {row.content}
+                                </td>
+                                <td className="py-4 px-4 w-1/2 text-center">
+                                    {row.from}
                                 </td>
                             </tr>
                         ))}

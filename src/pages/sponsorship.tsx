@@ -69,6 +69,21 @@ export default function Contact() {
                 <div className="flex flex-wrap items-center">
                     <div className="w-full px-4">
                         <span className="text-4xl lg:text-6xl font-semibold text-dark">
+                            Coming Soon...
+                            {/* Committee */}
+                        </span>
+                        {/* <h2 className="mt-5 text-xl font-semibold">
+                            Organizing Committees <br />
+                            Senior Program Committee
+                            <br /> Program Committee
+                        </h2> */}
+                    </div>
+                </div>
+            </HeroBackground>
+            {/* <HeroBackground>
+                <div className="flex flex-wrap items-center">
+                    <div className="w-full px-4">
+                        <span className="text-4xl lg:text-6xl font-semibold text-dark">
                             Sponsorship
                         </span>
                         <h2 className="mt-5 text-xl font-semibold">
@@ -94,7 +109,7 @@ export default function Contact() {
                     --&nbsp;&nbsp;&nbsp;Bronze Sponsors&nbsp;&nbsp;&nbsp;--
                 </h2>
                 <Companies />
-            </div>
+            </div> */}
         </section>
     );
 }

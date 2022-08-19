@@ -31,18 +31,21 @@ export default function About() {
                         </div>
                     </div>
                     <div className="w-full px-8 lg:w-3/5 text-md md:text-lg text-justify mb-8">
-                        RAIT is a conference on advanced networking and
-                        communications topics. Conferences focuses on promotion
-                        of intense conversation between academic and industry to
-                        bridge the gap between academic research, industry
-                        initiatives, and governmental policies. This is achieved
-                        by panel discussions, keynotes, invited talks, and
-                        industry exhibits, where academia is exposed to
-                        state-of-the-practice and results from trials and
+                        RAIT is a premier conference that encompasses different
+                        topics in Information Technology. This conference is
+                        technically co-sponsored by the IEEE Kolkata chapter.
+                        The RAIT provides a forum for a strong and involved
+                        interaction between academia and industry to bridge the
+                        gaps in research being carried out in the academia and
+                        the industry. The conference will host panel
+                        discussions, keynotes, invited talks, and industry
+                        exhibits, where academia is exposed to the
+                        state-of-the-practice results from large-scale
                         interoperability experiments. The industry, in turn,
-                        benefits from exposure to leading-edge research as well
-                        as an opportunity to communicate and collaborate with
-                        academic researchers regarding practical problems.
+                        benefits from the exposure to cutting-edge problems that
+                        require future research and deployment of
+                        industrial-scale resources through interaction with the
+                        academic researchers.
                         <br />
                         <br />
                         It focuses mainly on areas of Recent Advances in Network
@@ -81,15 +84,9 @@ export default function About() {
                                 </div>
                                 <div className="pr-2">
                                     <h5 className="mb-1 text-md font-semibold">
-                                        Scheduled On
+                                        Scheduled From
                                     </h5>
-                                    <p className="text-sm">
-                                        6:00 PM - 8:00 PM
-                                        <br />
-                                        Monday 20th april, 2023
-                                        <br />
-                                        XYZ
-                                    </p>
+                                    <p className="text-sm">3-5 March, 2023</p>
                                 </div>
                             </div>
                         </div>

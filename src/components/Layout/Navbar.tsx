@@ -74,6 +74,11 @@ const NavBar = () => {
                             Sponsorship
                         </span>
                     </Link>
+                    <Link href="registration">
+                        <span className="mx-2 px-4 flex items-center h-10 rounded-[3px] cursor-pointer hover:bg-blue-700 font-semibold hover:text-white">
+                            Registration
+                        </span>
+                    </Link>
                     <Link href="contact">
                         <span className="mx-3 px-4 flex items-center h-10 rounded-[3px] cursor-pointer hover:bg-blue-700 font-semibold hover:text-white">
                             Contact Us
@@ -233,6 +238,31 @@ const NavBar = () => {
                                         </svg>
                                         <span className="ml-5 font-semibold text-gray-900">
                                             Sponsorship
+                                        </span>
+                                    </button>
+                                </Link>
+                                <Link href="/registration">
+                                    <button
+                                        className="p-1 flex items-center"
+                                        onClick={() => setOpen(!open)}
+                                    >
+                                        <svg
+                                            className="flex-shrink-0 h-6 w-6 text-blue-600"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            stroke="currentColor"
+                                            aria-hidden="true"
+                                        >
+                                            <path
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                strokeWidth={2}
+                                                d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"
+                                            />
+                                        </svg>
+                                        <span className="ml-5 font-semibold text-gray-900">
+                                            Registration
                                         </span>
                                     </button>
                                 </Link>

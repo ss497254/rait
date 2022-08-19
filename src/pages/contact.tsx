@@ -73,6 +73,9 @@ export default function Contact() {
                         >
                             rait@iitism.ac.in
                         </a>
+                        <br />
+                        <br />
+                        <span className="text-xl">+91-326-2235273</span>
                     </div>
                 </div>
             </div>

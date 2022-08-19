@@ -41,24 +41,58 @@ export default function Contact() {
                             Authors
                         </span>
                         <h2 className="mt-5 text-xl">
-                            The submission page for{" "}
+                            To submit a paper in{" "}
                             <span className="text-yellow-200 font-extrabold">
                                 RAIT 2023
-                            </span>{" "}
-                            is&nbsp;&nbsp;
+                            </span>
+                            &nbsp;
                             <a
                                 href="https://easychair.org/conferences/?conf=rait2023"
                                 className="text-green-300 underline underline-offset-4 font-bold"
                             >
                                 Click here
-                                <LinkIcon className="inline-block px-2" />
                             </a>
                         </h2>
                     </div>
                 </div>
             </HeroBackground>
             <ImportantDates dates={dates} />
-            <div className="mx-auto max-w-5xl mb-16 px-8">
+            <div className="mb-16 px-8 bg-blue-100 py-24">
+                <h2 className="text-center text-3xl mb-12 font-semibold">
+                    Major Tracks
+                </h2>
+                <div className="max-w-5xl px-8 text-justify mx-auto">
+                    Authors can submit regular (6 pages) papers that contain
+                    original material that is not currently communicated in
+                    other conferences or journals and has not been previously
+                    published. Potential research topics include (but are not
+                    limited to) the following thrust areas.
+                    <br />
+                    <br />
+                    The tracks in this conference include (but not limited to):
+                    <br />
+                    <ul className="list-disc pl-12 my-6 mt-2">
+                        <li>Recent Advances in Communications and Networks</li>
+                        <li>
+                            Recent Advances in Cryptography and Network Security
+                        </li>
+                        <li>Recent Advances in Embedded Systems and VLSI</li>
+                        <li>
+                            Recent Advances in Image, Video and Signal
+                            Processing
+                        </li>
+                        <li>
+                            Recent Advances in Soft Computing, Artificial
+                            Intelligence and Machine Learning
+                        </li>
+                        <li>Recent Advances in Algorithms</li>
+                        <li>Recent Advances in Information Technology</li>
+                    </ul>
+                    All accepted and registered papers will be published in IEEE
+                    proceedings.
+                </div>
+            </div>
+            <div className="mx-auto max-w-5xl mb-16 px-8 text-justify">
                 <h2 className="text-center text-3xl mb-12 font-semibold">
                     Important Note
                 </h2>
@@ -79,6 +113,16 @@ export default function Contact() {
                     Link
                     <LinkIcon className="inline-block px-2 -mx-1" />
                 </a>
+                <h2 className="mt-12 text-xl">
+                    To submit a paper in{" "}
+                    <span className="font-extrabold">RAIT 2023</span> &nbsp;
+                    <a
+                        href="https://easychair.org/conferences/?conf=rait2023"
+                        className="text-blue-500 underline underline-offset-4 font-bold"
+                    >
+                        Click here
+                    </a>
+                </h2>
             </div>
         </section>
     );

@@ -13,7 +13,7 @@ export default function Footer() {
                         />
                     </div>
                 </div>
-                <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                <div className="flex gap-20 mr-20">
                     <div className="max-w-[200px]">
                         <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                             Resources
@@ -24,7 +24,7 @@ export default function Footer() {
                                     href="https://Rait.com/"
                                     className="hover:underline"
                                 >
-                                    Rait
+                                    RAIT 2023
                                 </a>
                             </li>
                             <li>
@@ -48,23 +48,6 @@ export default function Footer() {
                             <li>
                                 <a href="#" className="hover:underline">
                                     Twitter
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="max-w-[200px]">
-                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-                            Legal
-                        </h2>
-                        <ul className="text-gray-700 text-sm">
-                            <li className="mb-4">
-                                <a href="#" className="hover:underline">
-                                    Privacy Policy
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" className="hover:underline">
-                                    Terms &amp; Conditions
                                 </a>
                             </li>
                         </ul>

@@ -12,24 +12,21 @@ export default function Hero() {
         >
             <div className="max-w-3xl px-8 py-8 flex items-center">
                 <div className="flex flex-col justify-center items-start text-white font-bold">
-                    <h1 className="text-4xl lg:text-5xl xl:text-5xl leading-normal">
-                        RAIT (Recent Advancements in Information Technology).
-                        <br />
-                        <span className="text-3xl">
-                            20<span className="text-green-500">22</span> - 20
-                            <span className="text-blue-500">23</span>
-                        </span>
-                    </h1>
-                    <p className="font-semibold text-lg mt-6 mb-8 pr-4">
-                        RAIT is a conference on advanced networking and
-                        communications topics. Conferences focuses on promotion
-                        of intense conversation between academic and industry to
-                        bridge the gap between academic research, industry
-                        initiatives, and governmental policies.
+                    <p className="font-semibold text-3xl mb-2 pr-4">
+                        5th IEEE International Conference on
                     </p>
+                    <h1 className="text-5xl lg:text-6xl xl:text-5xl leading-normal">
+                        Recent Advancements in Information Technology
+                        <br />
+                        <span className="text-3xl">(RAIT 2023)</span>
+                        {/* <br />
+                        <span className="text-4xl">
+                            <span className="text-green-300">2023</span>
+                        </span> */}
+                    </h1>
                     <a
                         href="#about"
-                        className="p-2 px-4 text-white rounded bg-blue-500"
+                        className="p-2 mt-12 px-4 text-white rounded bg-blue-500"
                     >
                         Know more
                     </a>
