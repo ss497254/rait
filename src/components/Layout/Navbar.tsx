@@ -119,7 +119,7 @@ const NavBar = () => {
                         : "opacity-0 hidden scale-95 absolute top-0 inset-x-0 p-2 transition transform origin-top-right lg:hidden"
                 }
             >
-                <div className="rounded-lg overflow-hidden shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-200">
+                <div className="rounded-lg border border-gray-400 overflow-hidden shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-200">
                     <div className="">
                         <div className="px-6 py-4 border-b-2 flex items-center justify-between">
                             <img
@@ -151,7 +151,7 @@ const NavBar = () => {
                                 </button>
                             </div>
                         </div>
-                        <nav className="grid text-black">
+                        <nav className="grid text-black py-2">
                             <Link href="/">
                                 <button
                                     className="px-6 focus:bg-blue-500 focus:text-white py-5 text-left"

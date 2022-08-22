@@ -15,7 +15,7 @@ export default function ({ title, content }: AccordianType) {
                 onClick={() => setOpen(!open)}
             >
                 <div className="w-full">
-                    <h4 className="text-base font-medium text-black text-justify">
+                    <h4 className="text-base font-medium text-black">
                         {title}
                     </h4>
                 </div>
