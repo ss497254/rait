@@ -16,11 +16,6 @@ export default function About() {
                         <h2 className="mb-4 text-4xl md:text-5xl font-bold text-dark">
                             Know about us
                         </h2>
-                        {/* <p className="text-md leading-relaxed text-body-color sm:leading-relaxed max-w-3xl">
-                            There are many variations of passages of Lorem Ipsum
-                            available but the majority have suffered alteration
-                            in some form.
-                        </p> */}
                     </div>
                 </div>
 
@@ -66,13 +61,13 @@ export default function About() {
                                         <path d="M14.5 8.58594C11.2734 8.58594 8.59375 11.2109 8.59375 14.4922C8.59375 17.7188 11.2187 20.3984 14.5 20.3984C17.7812 20.3984 20.4062 17.7734 20.4062 14.4922C20.4062 11.2109 17.7266 8.58594 14.5 8.58594ZM14.5 18.4297C12.3125 18.4297 10.5078 16.625 10.5078 14.4375C10.5078 12.25 12.3125 10.4453 14.5 10.4453C16.6875 10.4453 18.4922 12.25 18.4922 14.4375C18.4922 16.625 16.6875 18.4297 14.5 18.4297Z" />
                                     </svg>
                                 </div>
-                                <div className="pr-2">
+                                <div className="pr-2 text-left">
                                     <h5 className="mb-1 text-md font-semibold">
                                         Our Location
                                     </h5>
                                     <p className="text-sm">
                                         Indian Institute of Technology (Indian
-                                        School of Mines) Dhanbad
+                                        School of Mines) Dhanbad,
                                         <br />
                                         Dhanbad Jharkhand 826004
                                     </p>
@@ -86,7 +81,7 @@ export default function About() {
                                     <h5 className="mb-1 text-md font-semibold">
                                         Scheduled From
                                     </h5>
-                                    <p className="text-sm">3-5 March, 2023</p>
+                                    <p className="text-sm">3 March, 2023</p>
                                 </div>
                             </div>
                         </div>
@@ -102,7 +97,7 @@ const AboutImg = () => {
         <div className="w-full px-4 md:px-0 text-blue-500">
             <div className="relative z-10">
                 <img
-                    src="/assets/about.jpg"
+                    src="/~rait/about.jpg"
                     alt="hero"
                     className="rounded-lg max-h-[475px]"
                 />

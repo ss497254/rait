@@ -92,7 +92,7 @@ export default function Contact() {
                     proceedings.
                 </div>
             </div>
-            <div className="mx-auto max-w-5xl mb-16 px-8 text-justify">
+            <div className="mx-auto max-w-5xl mb-16 px-8 text-justify py-10">
                 <h2 className="text-center text-3xl mb-12 font-semibold">
                     Important Note
                 </h2>

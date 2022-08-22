@@ -7,7 +7,7 @@ export default function Footer() {
                 <div className="mb-8 md:mb-0">
                     <div className="flex items-center">
                         <img
-                            src="/assets/real_logo.png"
+                            src="/~rait/real_logo.png"
                             className="mr-3 h-14"
                             alt="Rait Logo"
                         />
@@ -21,14 +21,18 @@ export default function Footer() {
                         <ul className="text-gray-700 text-sm">
                             <li className="mb-4">
                                 <a
-                                    href="https://Rait.com/"
+                                    href="https://people.iitism.ac.in/~rait"
                                     className="hover:underline"
                                 >
                                     RAIT 2023
                                 </a>
                             </li>
                             <li>
-                                <a href="#" className="hover:underline">
+                                <a
+                                    href="https://www.iitism.ac.in"
+                                    className="hover:underline"
+                                    target="_blank"
+                                >
                                     Indian Institute of Technology
                                     <br /> Dhanbad
                                 </a>

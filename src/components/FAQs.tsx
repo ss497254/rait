@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const FAQ = () => {
+export const FAQ = () => {
     const [open, setOpen] = useState(false);
 
     return (

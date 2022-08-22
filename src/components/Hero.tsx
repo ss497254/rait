@@ -5,28 +5,23 @@ export default function Hero() {
         <div
             className="min-h-screen w-full flex justify-center bg-gray-700"
             style={{
-                backgroundImage: "url(/assets/bg.jpg)",
+                backgroundImage: "url(/~rait/bg.jpg)",
                 backgroundPosition: "center",
                 backgroundSize: "cover",
             }}
         >
             <div className="max-w-3xl px-8 py-8 flex items-center">
                 <div className="flex flex-col justify-center items-start text-white font-bold">
-                    <p className="font-semibold text-3xl mb-2 pr-4">
+                    <p className="font-semibold text-3xl mb-4 pr-4">
                         5th IEEE International Conference on
                     </p>
-                    <h1 className="text-5xl lg:text-6xl xl:text-5xl leading-normal">
+                    <h1 className="text-4xl lg:text-6xl xl:text-5xl leading-10">
                         Recent Advancements in Information Technology
-                        <br />
-                        <span className="text-3xl">(RAIT 2023)</span>
-                        {/* <br />
-                        <span className="text-4xl">
-                            <span className="text-green-300">2023</span>
-                        </span> */}
+                        <p className="text-3xl mt-4">(RAIT 2023)</p>
                     </h1>
                     <a
                         href="#about"
-                        className="p-2 mt-12 px-4 text-white rounded bg-blue-500"
+                        className="p-2 mt-12 mx-2 px-4 text-white rounded bg-blue-500"
                     >
                         Know more
                     </a>

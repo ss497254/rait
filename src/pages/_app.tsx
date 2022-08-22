@@ -21,14 +21,15 @@ function App({ Component, pageProps }: AppProps) {
                 <title>
                     RAIT (Recent Advancements in Information Technology) 2023
                 </title>
-                <link rel="icon" href="/favicon.png" type="image/x-icon" />
-                <link rel="manifest" href="/manifest.json" />
+                <link
+                    rel="icon"
+                    href="/~rait/favicon.png"
+                    type="image/x-icon"
+                />
                 <meta
                     name="viewport"
                     content="width=device-width, initial-scale=1, user-scalable=no, user-scalable=0"
                 />
-                <link rel="apple-touch-icon" href="/img/doge.png"></link>
-                <link rel="apple-touch-startup-image" href="img/doge512.png" />
             </Head>
             <NavBar />
             <Component {...pageProps} />

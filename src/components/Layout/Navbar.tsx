@@ -45,7 +45,7 @@ const NavBar = () => {
                 <div className="flex justify-start lg:w-0 md:flex-1">
                     <Link href="/">
                         <img
-                            src={`/assets/real_logo${
+                            src={`/~rait/real_logo${
                                 isScrolled ? "" : "-dark"
                             }.png`}
                             className="h-12 px-[3%] lg:px-[8%]"
@@ -119,12 +119,12 @@ const NavBar = () => {
                         : "opacity-0 hidden scale-95 absolute top-0 inset-x-0 p-2 transition transform origin-top-right lg:hidden"
                 }
             >
-                <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-200">
-                    <div className="pt-5 pb-6 px-5">
-                        <div className="flex items-center justify-between">
+                <div className="rounded-lg overflow-hidden shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-200">
+                    <div className="">
+                        <div className="px-6 py-4 border-b-2 flex items-center justify-between">
                             <img
-                                src="/assets/real_logo.png"
-                                className="ml-1 h-7"
+                                src="/~rait/real_logo.png"
+                                className="ml-1 h-9"
                                 alt="Rait Logo"
                             />
                             <div className="-mr-2">
@@ -151,150 +151,72 @@ const NavBar = () => {
                                 </button>
                             </div>
                         </div>
-                        <div className="mt-6">
-                            <nav className="grid gap-y-6">
-                                <Link href="/">
-                                    <button
-                                        className="p-1 flex items-center"
-                                        onClick={() => setOpen(!open)}
-                                    >
-                                        <span className="flex-shrink-0 w-6 text-blue-600">
-                                            <SolidHome size={18} />
-                                        </span>
-                                        <span className="ml-5 font-semibold text-gray-900">
-                                            Home
-                                        </span>
-                                    </button>
-                                </Link>
-                                <Link href="/authors">
-                                    <button
-                                        className="p-1 flex items-center"
-                                        onClick={() => setOpen(!open)}
-                                    >
-                                        <svg
-                                            className="flex-shrink-0 h-6 w-6 text-blue-600"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            fill="none"
-                                            viewBox="0 0 24 24"
-                                            stroke="currentColor"
-                                            aria-hidden="true"
-                                        >
-                                            <path
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth={2}
-                                                d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
-                                            />
-                                        </svg>
-                                        <span className="ml-5 font-semibold text-gray-900">
-                                            Authors
-                                        </span>
-                                    </button>
-                                </Link>
-                                <Link href="/committee">
-                                    <button
-                                        className="p-1 flex items-center"
-                                        onClick={() => setOpen(!open)}
-                                    >
-                                        <svg
-                                            className="flex-shrink-0 h-6 w-6 text-blue-600"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            fill="none"
-                                            viewBox="0 0 24 24"
-                                            stroke="currentColor"
-                                            aria-hidden="true"
-                                        >
-                                            <path
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth={2}
-                                                d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
-                                            />
-                                        </svg>
-                                        <span className="ml-5 font-semibold text-gray-900">
-                                            Committee
-                                        </span>
-                                    </button>
-                                </Link>
-                                <Link href="/sponsorship">
-                                    <button
-                                        className="p-1 flex items-center"
-                                        onClick={() => setOpen(!open)}
-                                    >
-                                        <svg
-                                            className="flex-shrink-0 h-6 w-6 text-blue-600"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            fill="none"
-                                            viewBox="0 0 24 24"
-                                            stroke="currentColor"
-                                            aria-hidden="true"
-                                        >
-                                            <path
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth={2}
-                                                d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"
-                                            />
-                                        </svg>
-                                        <span className="ml-5 font-semibold text-gray-900">
-                                            Sponsorship
-                                        </span>
-                                    </button>
-                                </Link>
-                                <Link href="/registration">
-                                    <button
-                                        className="p-1 flex items-center"
-                                        onClick={() => setOpen(!open)}
-                                    >
-                                        <svg
-                                            className="flex-shrink-0 h-6 w-6 text-blue-600"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            fill="none"
-                                            viewBox="0 0 24 24"
-                                            stroke="currentColor"
-                                            aria-hidden="true"
-                                        >
-                                            <path
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth={2}
-                                                d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"
-                                            />
-                                        </svg>
-                                        <span className="ml-5 font-semibold text-gray-900">
-                                            Registration
-                                        </span>
-                                    </button>
-                                </Link>
-                                <Link href="/contact">
-                                    <button
-                                        className="p-1 flex items-center"
-                                        onClick={() => setOpen(!open)}
-                                    >
-                                        <svg
-                                            className="flex-shrink-0 h-6 w-6 text-blue-600"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            fill="none"
-                                            viewBox="0 0 24 24"
-                                            stroke="currentColor"
-                                            aria-hidden="true"
-                                        >
-                                            <path
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth={2}
-                                                d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
-                                            />
-                                        </svg>
-                                        <span className="ml-5 font-semibold text-gray-900">
-                                            Contact Us
-                                        </span>
-                                    </button>
-                                </Link>
-                            </nav>
-                        </div>
+                        <nav className="grid text-black">
+                            <Link href="/">
+                                <button
+                                    className="px-6 focus:bg-blue-500 focus:text-white py-5 text-left"
+                                    onClick={() => setOpen(!open)}
+                                >
+                                    <span className="ml-5 font-semibold">
+                                        Home
+                                    </span>
+                                </button>
+                            </Link>
+                            <Link href="/authors">
+                                <button
+                                    className="px-6 focus:bg-blue-500 focus:text-white py-5 text-left"
+                                    onClick={() => setOpen(!open)}
+                                >
+                                    <span className="ml-5 font-semibold">
+                                        Authors
+                                    </span>
+                                </button>
+                            </Link>
+                            <Link href="/committee">
+                                <button
+                                    className="px-6 focus:bg-blue-500 focus:text-white py-5 text-left"
+                                    onClick={() => setOpen(!open)}
+                                >
+                                    <span className="ml-5 font-semibold">
+                                        Committee
+                                    </span>
+                                </button>
+                            </Link>
+                            <Link href="/sponsorship">
+                                <button
+                                    className="px-6 focus:bg-blue-500 focus:text-white py-5 text-left"
+                                    onClick={() => setOpen(!open)}
+                                >
+                                    <span className="ml-5 font-semibold">
+                                        Sponsorship
+                                    </span>
+                                </button>
+                            </Link>
+                            <Link href="/registration">
+                                <button
+                                    className="px-6 focus:bg-blue-500 focus:text-white py-5 text-left"
+                                    onClick={() => setOpen(!open)}
+                                >
+                                    <span className="ml-5 font-semibold">
+                                        Registration
+                                    </span>
+                                </button>
+                            </Link>
+                            <Link href="/contact">
+                                <button
+                                    className="px-6 focus:bg-blue-500 focus:text-white py-5 text-left"
+                                    onClick={() => setOpen(!open)}
+                                >
+                                    <span className="ml-5 font-semibold">
+                                        Contact Us
+                                    </span>
+                                </button>
+                            </Link>
+                        </nav>
                     </div>
-                    <div className="p-4 text-gray-700">IIT(ISM) Dhanbad</div>
+                    <div className="p-4 text-center font-bold text-blue-600">
+                        IIT(ISM) Dhanbad
+                    </div>
                 </div>
             </div>
         </div>
