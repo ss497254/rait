@@ -8,7 +8,7 @@ export default function Contact() {
                 <div className="flex flex-wrap items-center">
                     <div className="w-full px-4">
                         <span className="text-4xl lg:text-6xl font-semibold text-dark">
-                            Registration
+                            Program
                         </span>
                     </div>
                 </div>

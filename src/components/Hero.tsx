@@ -13,10 +13,10 @@ export default function Hero() {
             <div className="max-w-3xl px-8 py-8 flex items-center">
                 <div className="flex flex-col justify-center items-start text-white font-bold">
                     <p className="font-semibold text-3xl mb-4 pr-4">
-                        5th IEEE International Conference on
+                        5<sup className="">th</sup> International Conference on
                     </p>
                     <h1 className="text-4xl lg:text-6xl xl:text-5xl leading-10">
-                        Recent Advancements in Information Technology
+                        Recent Advances in Information Technology
                         <p className="text-3xl mt-4">(RAIT 2023)</p>
                     </h1>
                     <a

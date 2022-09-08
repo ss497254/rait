@@ -59,24 +59,31 @@ const NavBar = () => {
                             Home
                         </span>
                     </Link>
-                    <Link href="authors">
-                        <span className="mx-2 px-4 flex items-center h-10 rounded-[3px] cursor-pointer hover:bg-blue-700 font-semibold hover:text-white">
-                            Authors
-                        </span>
-                    </Link>
+
                     <Link href="committee">
                         <span className="mx-2 px-4 flex items-center h-10 rounded-[3px] cursor-pointer hover:bg-blue-700 font-semibold hover:text-white">
                             Committee
                         </span>
                     </Link>
-                    <Link href="sponsorship">
+                    <Link href="authors">
                         <span className="mx-2 px-4 flex items-center h-10 rounded-[3px] cursor-pointer hover:bg-blue-700 font-semibold hover:text-white">
-                            Sponsorship
+                            Authors
                         </span>
                     </Link>
+                    <Link href="program">
+                        <span className="mx-2 px-4 flex items-center h-10 rounded-[3px] cursor-pointer hover:bg-blue-700 font-semibold hover:text-white">
+                            Program
+                        </span>
+                    </Link>
+
                     <Link href="registration">
                         <span className="mx-2 px-4 flex items-center h-10 rounded-[3px] cursor-pointer hover:bg-blue-700 font-semibold hover:text-white">
                             Registration
+                        </span>
+                    </Link>
+                    <Link href="sponsors">
+                        <span className="mx-2 px-4 flex items-center h-10 rounded-[3px] cursor-pointer hover:bg-blue-700 font-semibold hover:text-white">
+                            Sponsors
                         </span>
                     </Link>
                     <Link href="contact">
@@ -119,12 +126,12 @@ const NavBar = () => {
                         : "opacity-0 hidden scale-95 absolute top-0 inset-x-0 p-2 transition transform origin-top-right lg:hidden"
                 }
             >
-                <div className="rounded-lg border border-gray-400 overflow-hidden shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-200">
+                <div className="rounded-lg border-gray-400 overflow-hidden shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-200">
                     <div className="">
-                        <div className="px-6 py-4 border-b-2 flex items-center justify-between">
+                        <div className="px-6 py-4 border-b flex items-center justify-between">
                             <img
                                 src="/~rait/real_logo.png"
-                                className="ml-1 h-9"
+                                className="ml-1 h-12"
                                 alt="Rait Logo"
                             />
                             <div className="-mr-2">
@@ -151,63 +158,75 @@ const NavBar = () => {
                                 </button>
                             </div>
                         </div>
-                        <nav className="grid text-black py-2">
+                        <nav className="text-black py-2">
                             <Link href="/">
                                 <button
-                                    className="px-6 focus:bg-blue-500 focus:text-white py-5 text-left"
+                                    className="p-6 w-full text-center focus:bg-blue-500 focus:text-white"
                                     onClick={() => setOpen(!open)}
                                 >
-                                    <span className="ml-5 font-semibold">
+                                    <span className="mr-5 font-semibold">
                                         Home
-                                    </span>
-                                </button>
-                            </Link>
-                            <Link href="/authors">
-                                <button
-                                    className="px-6 focus:bg-blue-500 focus:text-white py-5 text-left"
-                                    onClick={() => setOpen(!open)}
-                                >
-                                    <span className="ml-5 font-semibold">
-                                        Authors
                                     </span>
                                 </button>
                             </Link>
                             <Link href="/committee">
                                 <button
-                                    className="px-6 focus:bg-blue-500 focus:text-white py-5 text-left"
+                                    className="p-6 w-full text-center focus:bg-blue-500 focus:text-white"
                                     onClick={() => setOpen(!open)}
                                 >
-                                    <span className="ml-5 font-semibold">
+                                    <span className="mr-5 font-semibold">
                                         Committee
                                     </span>
                                 </button>
                             </Link>
-                            <Link href="/sponsorship">
+                            <Link href="/authors">
                                 <button
-                                    className="px-6 focus:bg-blue-500 focus:text-white py-5 text-left"
+                                    className="p-6 w-full text-center focus:bg-blue-500 focus:text-white"
                                     onClick={() => setOpen(!open)}
                                 >
-                                    <span className="ml-5 font-semibold">
-                                        Sponsorship
+                                    <span className="mr-5 font-semibold">
+                                        Authors
                                     </span>
                                 </button>
                             </Link>
-                            <Link href="/registration">
+
+                            <Link href="/program">
                                 <button
-                                    className="px-6 focus:bg-blue-500 focus:text-white py-5 text-left"
+                                    className="p-6 w-full text-center focus:bg-blue-500 focus:text-white"
                                     onClick={() => setOpen(!open)}
                                 >
-                                    <span className="ml-5 font-semibold">
+                                    <span className="mr-5 font-semibold">
+                                        Program
+                                    </span>
+                                </button>
+                            </Link>
+
+                            <Link href="/registration">
+                                <button
+                                    className="p-6 w-full text-center focus:bg-blue-500 focus:text-white"
+                                    onClick={() => setOpen(!open)}
+                                >
+                                    <span className="mr-5 font-semibold">
                                         Registration
+                                    </span>
+                                </button>
+                            </Link>
+                            <Link href="/sponsors">
+                                <button
+                                    className="p-6 w-full text-center focus:bg-blue-500 focus:text-white"
+                                    onClick={() => setOpen(!open)}
+                                >
+                                    <span className="mr-5 font-semibold">
+                                        Sponsors
                                     </span>
                                 </button>
                             </Link>
                             <Link href="/contact">
                                 <button
-                                    className="px-6 focus:bg-blue-500 focus:text-white py-5 text-left"
+                                    className="p-6 w-full text-center focus:bg-blue-500 focus:text-white"
                                     onClick={() => setOpen(!open)}
                                 >
-                                    <span className="ml-5 font-semibold">
+                                    <span className="mr-5 font-semibold">
                                         Contact Us
                                     </span>
                                 </button>

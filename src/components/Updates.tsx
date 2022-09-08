@@ -1,19 +1,22 @@
-import React from "react";
-import Accordian from "./Accordian";
-
 export default function Updates() {
     return (
-        <div className="pmd:py-4 bg-blue-100 py-12">
+        <div className="md:py-4 bg-blue-100 py-12">
             <h1 className="w-full text-center my-16 text-4xl font-bold">
                 Updates
             </h1>
-            <h2 className="text-center text-2xl mb-20">Coming Soon...</h2>
-            {/* <div className="w-[90vw] mx-auto max-w-5xl flex flex-col gap-4 mb-20 lg:mb-24">
-                <Accordian />
-                <Accordian />
-                <Accordian />
-                <Accordian />
-            </div> */}
+            <div className="px-8 md:px-12 lg:px-24 text-xl text-md md:text-lg text-justify mb-8">
+                <div className="text-base md:text-lg flex flex-col justify-center min-h-[80px] lg:px-12 items-center w-full border border-gray-300 rounded border-l-4 border-l-blue-500 bg-white px-5 py-6 my-4">
+                    In case of travel restrictions due to Covid-19 that prohibit
+                    physical appearance, RAIT will allow authors of accepted
+                    papers to present and participate remotely if they wish to
+                    do so.
+                </div>
+                <div className="flex justify-center">
+                    <button className="text-base md:text-lg bg-blue-500 hover:bg-blue-600 px-4 py-3 text-white rounded mt-6">
+                        Read More
+                    </button>
+                </div>
+            </div>
         </div>
     );
 }

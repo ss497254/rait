@@ -65,21 +65,16 @@ const Companies = () => (
 export default function Contact() {
     return (
         <section className="min-h-screen">
-            <HeroBackground>
+              <HeroBackground>
                 <div className="flex flex-wrap items-center">
                     <div className="w-full px-4">
                         <span className="text-4xl lg:text-6xl font-semibold text-dark">
-                            Coming Soon...
-                            {/* Committee */}
+                            Sponsors
                         </span>
-                        {/* <h2 className="mt-5 text-xl font-semibold">
-                            Organizing Committees <br />
-                            Senior Program Committee
-                            <br /> Program Committee
-                        </h2> */}
                     </div>
                 </div>
             </HeroBackground>
+            <div className="text-center text-3xl font-semibold p-20">Comming Soon...</div>
             {/* <HeroBackground>
                 <div className="flex flex-wrap items-center">
                     <div className="w-full px-4">

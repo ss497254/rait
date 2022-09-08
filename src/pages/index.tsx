@@ -1,6 +1,7 @@
 import ImportantDates, { row } from "components/ImportantDates";
 import React from "react";
 import About from "../components/About";
+import Sponsors from "../components/Sponsors";
 import FAQs from "../components/FAQs";
 import FeatureBlocks from "../components/FeatureBlocks";
 import Hero from "../components/Hero";
@@ -12,7 +13,7 @@ import Updates from "../components/Updates";
 export default function Hello() {
     const dates: row[] = [
         {
-            from: "August 1, 2022",
+            from: "October 1, 2022",
             to: "October 1, 2022",
             content: "Full Paper Submission",
         },
@@ -27,12 +28,12 @@ export default function Hello() {
             content: "Camera Ready",
         },
         {
-            from: "December 15, 2022",
-            to: "February 28, 2023",
+            from: "February 28, 2023",
+            to: "",
             content: "Last Date of Registration",
         },
         {
-            from: "March 3, 2023",
+            from: "March 3-5, 2023",
             to: "March 5, 2023",
             content: "Conference Date",
         },
@@ -41,14 +42,15 @@ export default function Hello() {
     return (
         <>
             <Hero />
-            <About />
-            <Speakers />
-            {/* <Pricing /> */}
-            <Updates />
-            {/* <FeatureBlocks /> */}
-            <ImportantDates dates={dates} />
-            {/* <Testimonials /> */}
-            {/* <FAQs /> */}
+            <div className="flex relative flex-col-reverse md:flex-row">
+                <div>
+                    <About />
+                    <Speakers />
+                    <Updates />
+                    <ImportantDates dates={dates} />
+                </div>
+                <Sponsors />
+            </div>
         </>
     );
 }

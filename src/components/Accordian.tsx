@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export type AccordianType = {
-    title: string;
+    title: React.ReactElement;
     content: React.ReactElement;
 };
 
@@ -9,16 +9,12 @@ export default function ({ title, content }: AccordianType) {
     const [open, setOpen] = useState(false);
 
     return (
-        <div className="flex flex-col justify-center min-h-[80px] items-center w-full border border-gray-300 rounded border-l-4 border-l-blue-500 bg-white px-5 py-6">
+        <div className="flex flex-col my-10 justify-center min-h-[80px] items-center w-full border border-gray-300 rounded border-l-4 border-l-blue-500 bg-white px-5 py-6">
             <button
                 className="faq-btn flex w-full gap-4 items-center text-left"
                 onClick={() => setOpen(!open)}
             >
-                <div className="w-full">
-                    <h4 className="text-base font-medium text-black">
-                        {title}
-                    </h4>
-                </div>
+                <div className="w-full">{title}</div>
                 <div className="flex h-full px-1 items-center rounded-lg bgOpacity-5 text-gray-100">
                     <svg
                         width="16"
@@ -37,13 +33,11 @@ export default function ({ title, content }: AccordianType) {
             <div
                 className={`text-justify ${
                     open
-                        ? "opacity-100 scale-100 ease-out duration-200 "
+                        ? "opacity-100 scale-100 w-full ease-out duration-200 "
                         : "opacity-0 hidden scale-95"
                 }`}
             >
-                <p className="py-3 text-sm leading-relaxed text-bodyColor">
-                    {content}
-                </p>
+                <p className="py-3 text-sm leading-relaxed">{content}</p>
             </div>
         </div>
     );

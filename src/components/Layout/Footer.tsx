@@ -15,13 +15,14 @@ export default function Footer() {
                 </div>
                 <div className="flex gap-20 mr-20">
                     <div className="max-w-[200px]">
-                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">
                             Resources
                         </h2>
                         <ul className="text-gray-700 text-sm">
                             <li className="mb-4">
                                 <a
                                     href="https://people.iitism.ac.in/~rait"
+                                    target="_blank"
                                     className="hover:underline"
                                 >
                                     RAIT 2023
@@ -40,18 +41,35 @@ export default function Footer() {
                         </ul>
                     </div>
                     <div className="max-w-[200px]">
-                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">
                             Follow us
                         </h2>
                         <ul className="text-gray-700 text-sm">
                             <li className="mb-4">
-                                <a href="#" className="hover:underline ">
+                                <a
+                                    href="https://www.facebook.com/RAIT-103820779127987"
+                                    target="_blank"
+                                    className="hover:underline "
+                                >
                                     Facebook
                                 </a>
                             </li>
-                            <li>
-                                <a href="#" className="hover:underline">
+                            <li className="mb-4">
+                                <a
+                                    href="https://twitter.com/Rait2023"
+                                    target="_blank"
+                                    className="hover:underline"
+                                >
                                     Twitter
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.linkedin.com/company/rait-cse"
+                                    target="_blank"
+                                    className="hover:underline"
+                                >
+                                    LinkedIn
                                 </a>
                             </li>
                         </ul>
@@ -59,17 +77,21 @@ export default function Footer() {
                 </div>
             </div>
             <div className="md:h-16 h-24 w-full flex flex-col md:flex-row items-center justify-center md:justify-between px-8 border-t border-gray-300">
-                <span className="text-sm text-gray-900 sm:text-center dark:text-gray-400">
+                <span className="text-sm text-gray-900 sm:text-center">
                     © {new Date().getFullYear()}{" "}
-                    <a href="https://Rait.com/" className="hover:underline">
+                    <a
+                        href="https://people.iitism.ac.in/~rait"
+                        className="hover:underline"
+                    >
                         RAIT™
                     </a>
                     . All Rights Reserved.
                 </span>
                 <div className="flex mt-4 space-x-8 sm:justify-center sm:mt-0 px-4">
                     <a
-                        href="#"
-                        className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                        href="https://www.facebook.com/RAIT-103820779127987"
+                        target="_blank"
+                        className="text-gray-500 hover:text-gray-900"
                     >
                         <svg
                             className="w-5 h-5"
@@ -84,9 +106,10 @@ export default function Footer() {
                             ></path>
                         </svg>
                     </a>
-                    <a
-                        href="#"
-                        className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                    {/* <a
+                        href="https://www.facebook.com/RAIT-103820779127987"
+                        target="_blank"
+                        className="text-gray-500 hover:text-gray-900"
                     >
                         <svg
                             className="w-5 h-5"
@@ -100,10 +123,11 @@ export default function Footer() {
                                 clipRule="evenodd"
                             ></path>
                         </svg>
-                    </a>
+                    </a> */}
                     <a
-                        href="#"
-                        className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                        href="https://twitter.com/Rait2023"
+                        target="_blank"
+                        className="text-gray-500 hover:text-gray-900"
                     >
                         <svg
                             className="w-5 h-5"
@@ -115,20 +139,36 @@ export default function Footer() {
                         </svg>
                     </a>
                     <a
-                        href="#"
-                        className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                        href="https://www.linkedin.com/company/rait-cse"
+                        target="_blank"
+                        className="text-gray-500 fill-gray-500 hover:text-gray-900"
                     >
                         <svg
-                            className="w-5 h-5"
-                            fill="currentColor"
-                            viewBox="0 0 24 24"
-                            aria-hidden="true"
+                            version="1.1"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="18px"
+                            height="18px"
+                            viewBox="0 0 310 310"
                         >
-                            <path
-                                fillRule="evenodd"
-                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
-                                clipRule="evenodd"
-                            ></path>
+                            <g id="XMLID_801_">
+                                <path
+                                    id="XMLID_802_"
+                                    d="M72.16,99.73H9.927c-2.762,0-5,2.239-5,5v199.928c0,2.762,2.238,5,5,5H72.16c2.762,0,5-2.238,5-5V104.73
+		C77.16,101.969,74.922,99.73,72.16,99.73z"
+                                />
+                                <path
+                                    id="XMLID_803_"
+                                    d="M41.066,0.341C18.422,0.341,0,18.743,0,41.362C0,63.991,18.422,82.4,41.066,82.4
+		c22.626,0,41.033-18.41,41.033-41.038C82.1,18.743,63.692,0.341,41.066,0.341z"
+                                />
+                                <path
+                                    id="XMLID_804_"
+                                    d="M230.454,94.761c-24.995,0-43.472,10.745-54.679,22.954V104.73c0-2.761-2.238-5-5-5h-59.599
+		c-2.762,0-5,2.239-5,5v199.928c0,2.762,2.238,5,5,5h62.097c2.762,0,5-2.238,5-5v-98.918c0-33.333,9.054-46.319,32.29-46.319
+		c25.306,0,27.317,20.818,27.317,48.034v97.204c0,2.762,2.238,5,5,5H305c2.762,0,5-2.238,5-5V194.995
+		C310,145.43,300.549,94.761,230.454,94.761z"
+                                />
+                            </g>
                         </svg>
                     </a>
                 </div>
