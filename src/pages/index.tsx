@@ -43,7 +43,7 @@ export default function Hello() {
         <>
             <Hero />
             <div className="flex relative flex-col-reverse md:flex-row">
-                <div>
+                <div className="w-full">
                     <About />
                     <Speakers />
                     <Updates />

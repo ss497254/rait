@@ -57,8 +57,8 @@ export default function Contact() {
                 </div>
             </HeroBackground>
             <div className="flex relative flex-col-reverse md:flex-row">
-                <div>
-                    <div className="mb-16 pt-24">
+                <div className="w-full">
+                    <div className="mb-16 pt-24 max-w-5xl">
                         <div className="max-w-5xl px-8 text-justify mx-auto flex justify-center">
                             <a
                                 className="bg-blue-500 hover:bg-blue-600 px-4 md:text-xl py-3 rounded text-white"

@@ -52,15 +52,15 @@ export default function Contact() {
                     </li>
                     <li className="py-2">
                         <span className="font-bold md:font-normal md:text-[1.06rem]">
-                            Debatosh Guha
-                        </span>
-                        , Calcutta University, Kolkata
-                    </li>
-                    <li className="py-2">
-                        <span className="font-bold md:font-normal md:text-[1.06rem]">
                             Debasish Dutta
                         </span>
                         , Indian Institute of Technology Kharagpur
+                    </li>
+                    <li className="py-2">
+                        <span className="font-bold md:font-normal md:text-[1.06rem]">
+                            Debatosh Guha
+                        </span>
+                        , Calcutta University, Kolkata
                     </li>
                     <li className="py-2">
                         <span className="font-bold md:font-normal md:text-[1.06rem]">
@@ -93,6 +93,12 @@ export default function Contact() {
                             Jayanta Mukhopadhyay
                         </span>
                         , Indian Institute of Technology Kharagpur
+                    </li>
+                    <li className="py-2">
+                        <span className="font-bold md:font-normal md:text-[1.06rem]">
+                            Keshav Dahal
+                        </span>
+                        , University of the West of Scotland, UK
                     </li>
                     <li className="py-2">
                         <span className="font-bold md:font-normal md:text-[1.06rem]">
@@ -164,6 +170,12 @@ export default function Contact() {
                     <li className="py-2">
                         <span className="font-bold md:font-normal md:text-[1.06rem]">
                             Susmita Sur Kolay
+                        </span>
+                        , Indian Statistical Institute Kolkata
+                    </li>
+                    <li className="py-2">
+                        <span className="font-bold md:font-normal md:text-[1.06rem]">
+                            Utpal Garain
                         </span>
                         , Indian Statistical Institute Kolkata
                     </li>
@@ -568,7 +580,7 @@ export default function Contact() {
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
                                 Arnab Sinha
                             </span>
-                            , École polytechnique
+                            , École Polytechnique, Palaiseau, France
                         </li>
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
@@ -725,6 +737,13 @@ export default function Contact() {
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
                                 Pramod Kumar Kewat
+                            </span>
+                            , Indian Institute of Technology (Indian School of
+                            Mines) Dhanbad
+                        </li>
+                        <li className="py-2">
+                            <span className="font-bold md:font-normal md:text-[1.06rem]">
+                                Sachin Tripathi
                             </span>
                             , Indian Institute of Technology (Indian School of
                             Mines) Dhanbad
@@ -890,8 +909,8 @@ export default function Contact() {
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
                                 Jabez Christopher
                             </span>
-                            , Indian Institute of Technology (Indian School of
-                            Mines) Dhanbad
+                            , Birla Institute of Technology and Science Pilani
+                            (Hyderabad campus)
                         </li>
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
@@ -950,7 +969,8 @@ export default function Contact() {
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
                                 Diptapriyo Majumder
                             </span>
-                            , Indian Information Institute of Technology Delhi
+                            , Indraprastha Information Institute of Technology
+                            Delhi
                         </li>
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">

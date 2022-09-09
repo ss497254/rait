@@ -18,12 +18,13 @@ export default function About() {
                         </h2>
                     </div>
                 </div>
-
-                <div className="lg:mx-10">
-                    <div className="w-full px-4 mb-12">
-                        <AboutImg />
+                <div className="flex flex-wrap justify-center lg:px-12">
+                    <div className="w-full md:w-fit px-4 mb-12">
+                        <div className="w-fit mx-auto">
+                            <AboutImg />
+                        </div>
                     </div>
-                    <div className="w-full px-8 text-md md:text-lg text-justify mb-8">
+                    <div className="w-full px-8 md:w-fit text-md md:text-lg text-justify mb-8">
                         RAIT is a premier conference that encompasses different
                         topics in Information Technology. This conference is
                         technically co-sponsored by the IEEE Kolkata chapter.
@@ -41,12 +42,11 @@ export default function About() {
                         academic researchers.
                         <br />
                         <br />
-                        It focuses mainly on the areas of Recent Advances in
-                        Network and Communications; Cryptography and Network
-                        Security; Embedded Systems and VLSI; Image, Video and
-                        Signal Processing; Soft Computing, Artificial
-                        Intelligence and Machine Learning; Algorithms and
-                        Information Technology.
+                        It focuses mainly on areas of Recent Advances in Network
+                        and Communications Cryptography and Network Security
+                        Embedded Systems and VLS Image, Video and Signal and
+                        Processing Soft Computing, Artificial Intelligence and
+                        Machine Learning Algorithms Information Technology
                         <div className="flex flex-col md:flex-row gap-10 mt-12">
                             <div className="flex w-full px-4">
                                 <div className="mr-4 pt-2 text-[32px]">
@@ -67,7 +67,8 @@ export default function About() {
                                     <p className="text-sm">
                                         Indian Institute of Technology (Indian
                                         School of Mines) Dhanbad,
-                                        Jharkhand-826004
+                                        <br />
+                                        Dhanbad Jharkhand 826004
                                     </p>
                                 </div>
                             </div>
@@ -97,12 +98,12 @@ const AboutImg = () => {
                 <img
                     src="/~rait/about.jpg"
                     alt="hero"
-                    className="rounded-lg max-h-[475px] mx-auto"
+                    className="rounded-lg max-h-[475px]"
                 />
                 <div className="absolute -bottom-6 -left-6 z-[-1] fill-current">
                     <svg
-                        width="179"
-                        height="141"
+                        width="134"
+                        height="106"
                         viewBox="0 0 134 106"
                         xmlns="http://www.w3.org/2000/svg"
                     >
@@ -590,8 +591,8 @@ const AboutImg = () => {
                 </div>
                 <div className="absolute -top-6 -right-6 z-[-1] fill-current">
                     <svg
-                        width="179"
-                        height="141"
+                        width="134"
+                        height="106"
                         viewBox="0 0 134 106"
                         xmlns="http://www.w3.org/2000/svg"
                     >
