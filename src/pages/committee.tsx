@@ -750,6 +750,12 @@ export default function Contact() {
                         </li>
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
+                                Sangram Ray
+                            </span>
+                            , National Institute of Technology Sikkim
+                        </li>
+                        <li className="py-2">
+                            <span className="font-bold md:font-normal md:text-[1.06rem]">
                                 Urbi Chatterjee
                             </span>
                             , Indian Institute of Technology Kanpur
@@ -938,6 +944,12 @@ export default function Contact() {
                             </span>
                             , LinkedIn Corporation
                         </li>
+                        <li className="py-2">
+                            <span className="font-bold md:font-normal md:text-[1.06rem]">
+                                Suman Kundu
+                            </span>
+                            , Indian Institute of Technology Jodhpur
+                        </li>
                         <li className="py-2">Other comming soon...</li>
                     </ul>
                     <h2 className="text-lg md:text-xl md:pl-8 py-2 md:py-4 font-medium">
@@ -950,6 +962,12 @@ export default function Contact() {
                             </span>
                             , Indian Institute of Technology (Indian School of
                             Mines) Dhanbad
+                        </li>
+                        <li className="py-2">
+                            <span className="font-bold md:font-normal md:text-[1.06rem]">
+                                Arindam karmar
+                            </span>
+                            , Tezpur University
                         </li>
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
@@ -969,7 +987,7 @@ export default function Contact() {
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
                                 Diptapriyo Majumder
                             </span>
-                            , Indraprastha Information Institute of Technology
+                            , Indraprastha Institute of Information Technology
                             Delhi
                         </li>
                         <li className="py-2">

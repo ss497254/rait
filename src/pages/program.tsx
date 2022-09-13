@@ -1,5 +1,6 @@
 import React from "react";
 import HeroBackground from "components/HeroBackground";
+import Sponsors from "components/Sponsors";
 
 export default function Contact() {
     return (
@@ -13,7 +14,15 @@ export default function Contact() {
                     </div>
                 </div>
             </HeroBackground>
-            <div className="text-center text-3xl font-semibold p-20">Comming Soon...</div>
+
+            <div className="flex relative flex-col-reverse md:flex-row">
+                <div className="w-full">
+                    <div className="text-center text-3xl font-semibold p-20">
+                        Comming Soon...
+                    </div>
+                </div>
+                <Sponsors />
+            </div>
         </section>
     );
 }

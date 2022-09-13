@@ -1,6 +1,7 @@
 import React from "react";
 import HeroBackground from "components/HeroBackground";
 import SpeakerDetail from "components/SpeakerDetail";
+import Sponsors from "components/Sponsors";
 
 const Companies = () => (
     <div className="max-w-sm text-gray-600 md:max-w-4xl mx-auto grid gap-20 grid-cols-4 md:grid-cols-5 mb-20">
@@ -62,10 +63,19 @@ const Companies = () => (
     </div>
 );
 
-export default function Contact() {
+export default function Sponsorship() {
+    const data = [
+        { category: "Back Cover (color)", amount: "INR 50,000" },
+        { category: "Front Inside (color)", amount: "INR 45,000" },
+        { category: "Back Inside (color) ", amount: "INR 35,000" },
+        { category: "Full Page (color)", amount: "INR 30,000" },
+        { category: "Full Page (B&W)", amount: "INR 25,000" },
+        { category: "Half Page (color)", amount: "INR 15,000" },
+        { category: "Half Page (B&W)", amount: "INR 10,000" },
+    ];
     return (
         <section className="min-h-screen">
-              <HeroBackground>
+            <HeroBackground>
                 <div className="flex flex-wrap items-center">
                     <div className="w-full px-4">
                         <span className="text-4xl lg:text-6xl font-semibold text-dark">
@@ -74,37 +84,303 @@ export default function Contact() {
                     </div>
                 </div>
             </HeroBackground>
-            <div className="text-center text-3xl font-semibold p-20">Comming Soon...</div>
+            <div className="flex relative flex-col-reverse md:flex-row">
+                <div className="w-full">
+                    <div className="mx-auto max-w-5xl my-8 px-8 lg:px-12 text-justify py-10">
+                        RAIT is a premier conference on different aspects of
+                        Information Technology. RAIT is technically supported by
+                        IEEE Kolkata Chapter. The distinguishing characteristic
+                        of RAIT is the promotion of an intense dialogue between
+                        academics and industry to bridge the gap between
+                        academic research, industry initiatives, and
+                        governmental policies. This is fostered through
+                        keynotes, tutorials, invited talks, and industry
+                        exhibits, where academia is exposed to
+                        state-of-the-practice and results from trials and
+                        interoperability experiments. The industry, in turn,
+                        benefits from exposure to leading-edge research as well
+                        as an opportunity to communicate and collaborate with
+                        academic researchers regarding practical problems. This
+                        year we celebrate the fifth edition of RAIT.
+                        <br />
+                        <br />
+                        In order to sustain the quality of RAIT that the RAIT
+                        community has been able to establish thus far, we
+                        greatly depend on generous financial support from
+                        reputed organisations like yours. In view of this, we
+                        welcome your support for the RAIT 2023 through generous
+                        sponsorship. You will also have the opportunity to
+                        showcase your organization’s capabilities to the world
+                        of eminent researchers and engineers from all over the
+                        world.
+                        <br />
+                        <br />
+                        Please feel free to contact us if you are interested in
+                        sponsoring RAIT.
+                        <br />
+                        <br />
+                        <span className="font-bold text-gray-900">
+                            RAIT 2023 Contacts:
+                        </span>{" "}
+                        <a
+                            href="mailto:rait@iitism.ac.in"
+                            target="_blank"
+                            className="text-blue-500 underline underline-offset-4 font-bold"
+                        >
+                            rait@iitism.ac.in
+                        </a>
+                    </div>
+                    <div className="mx-auto max-w-5xl mb-4 px-8 lg:px-12 text-justify py-10 pt-0">
+                        <h2 className="text-left text-3xl mb-6 font-bold text-red-500">
+                            Category Diamond
+                        </h2>
+                        <h2 className="text-xl font-semibold">
+                            USD $5,000 – INR 5,00,000 + Applicable Taxes
+                        </h2>
+                        <h2 className="text-xl my-2 font-semibold">
+                            Benefits:
+                        </h2>
+                        <div className="list-disc pl-3">
+                            <li>Six complimentary conference registration.</li>
+                            <li>Logo on all programs of the conference.</li>
+                            <li>
+                                Logo on conference web site, with link to
+                                company’s site or any page demonstrating their
+                                products1
+                            </li>
+                            <li>
+                                Option to showcase information for the
+                                attendees, as supplementary with the conference
+                                kit.
+                            </li>
+                            <li>
+                                Opportunity for the sponsors to demo/showcase
+                                their products and company assets in the
+                                exhibition/demo area during all days of the
+                                conference.
+                            </li>
+                            <li>
+                                Invitation to deliver a Keynote speech in the
+                                opening plenary OR a Tutorial on the first day
+                                of the conference.
+                            </li>
+                            <li>
+                                Invitation to participate in the press release
+                                and interact with the media.
+                            </li>
+                        </div>
+                    </div>
+                    <div className="mx-auto max-w-5xl mb-4 px-8 lg:px-12 text-justify py-10 pt-0">
+                        <h2 className="text-left text-3xl mb-6 font-bold text-blue-500">
+                            Category Platinum
+                        </h2>
+                        <h2 className="text-xl font-semibold">
+                            USD $4,000 – INR 4,00,000 + Applicable Taxes
+                        </h2>
+                        <h2 className="text-xl my-2 font-semibold">
+                            Benefits:
+                        </h2>
+                        <div className="list-disc pl-3">
+                            <li>Five complimentary conference registration.</li>
+
+                            <li>Logo on all programs of the conference.</li>
+
+                            <li>
+                                Logo on conference web site, with link to
+                                company’s site or any page demonstrating their
+                                products
+                            </li>
+                            <li>
+                                Option to showcase information for the
+                                attendees, as supplementary with the conference
+                                kit.
+                            </li>
+                            <li>
+                                Opportunity for the sponsors to demo/showcase
+                                their products and company assets in the
+                                exhibition/demo area during all days of the
+                                conference.
+                            </li>
+                            <li>
+                                Invitation to deliver a Keynote speech OR a
+                                Tutorial in any one session of the conference.
+                            </li>
+                        </div>
+                    </div>
+                    <div className="mx-auto max-w-5xl mb-4 px-8 lg:px-12 text-justify py-10 pt-0">
+                        <h2 className="text-left text-3xl mb-6 font-bold text-amber-500">
+                            Category Gold
+                        </h2>
+                        <h2 className="text-xl font-semibold">
+                            USD $3,000 – INR 3,00,000 + Applicable Taxes
+                        </h2>
+                        <h2 className="text-xl my-2 font-semibold">
+                            Benefits:
+                        </h2>
+                        <div className="list-disc pl-3">
+                            <li>Four complimentary conference registration.</li>{" "}
+                            <li>Logo on all programs of the conference.</li>
+                            <li>
+                                Logo on conference web site, with link to
+                                company’s site or any page demonstrating their
+                                products
+                            </li>
+                            <li>
+                                Option to showcase information for the
+                                attendees, as supplementary with the conference
+                                kit.
+                            </li>
+                            <li>
+                                Opportunity for the sponsors to demo/showcase
+                                their products and company assets in the
+                                exhibition/demo area during all days of the
+                                conference.
+                            </li>
+                        </div>
+                    </div>
+                    <div className="mx-auto max-w-5xl mb-4 px-8 lg:px-12 text-justify py-10 pt-0">
+                        <h2 className="text-left text-3xl mb-6 font-bold text-green-500">
+                            Category Silver
+                        </h2>
+                        <h2 className="text-xl font-semibold">
+                            USD $2,000 – INR 2,00,000 + Applicable Taxes
+                        </h2>
+                        <h2 className="text-xl my-2 font-semibold">
+                            Benefits:
+                        </h2>
+                        <div className="list-disc pl-3">
+                            <li>
+                                Three complimentary conference registration.
+                            </li>
+                            <li>Logo on all programs of the conference.</li>
+                            <li>
+                                Logo on conference web site, with link to
+                                company’s site or any page demonstrating their
+                                products
+                            </li>
+                            <li>
+                                Option to showcase information for the
+                                attendees, as supplementary with the conference
+                                kit.
+                            </li>
+                            <li>
+                                Opportunity for the sponsors to demo/showcase
+                                their products and company assets in the
+                                exhibition/demo area during the opening day of
+                                the conference.
+                            </li>
+                        </div>
+                    </div>
+                    <div className="mx-auto max-w-5xl mb-4 px-8 lg:px-12 text-justify py-10 pt-0">
+                        <h2 className="text-left text-3xl mb-6 font-bold text-orange-800">
+                            Category Bronze
+                        </h2>
+                        <h2 className="text-xl font-semibold">
+                            USD $1,000 – INR 1,00,000 + Applicable Taxes
+                        </h2>
+                        <h2 className="text-xl my-2 font-semibold">
+                            Benefits:
+                        </h2>
+                        <div className="list-disc pl-3">
+                            <li>Two complimentary conference registration.</li>
+                            <li>Logo on all programs of the conference.</li>
+                            <li>
+                                Logo on conference web site, with link to
+                                company’s site or any page demonstrating their
+                                products
+                            </li>
+                            <li>
+                                Option to showcase information for the
+                                attendees, as supplementary with the conference
+                                kit.
+                            </li>
+                        </div>
+                    </div>
+                    <div className="mx-auto max-w-5xl mb-4 px-8 lg:px-12 text-justify py-10 pt-0">
+                        <h2 className="my-2">
+                            A Souvenir will also be published on this occasion.
+                            Advertisements are invited, for which the tariffs
+                            are:
+                        </h2>
+                        <br />
+                        <table className="w-full text-left text-gray-800 outline-1 outline rounded-md overflow-hidden">
+                            <thead className="text-gray-700 uppercase text-lg bg-blue-200">
+                                <tr>
+                                    <th
+                                        scope="col"
+                                        className="py-3 px-2 w-1/2 text-center"
+                                    >
+                                        Category
+                                    </th>
+                                    <th
+                                        scope="col"
+                                        className="py-3 px-4 w-1/2 text-center"
+                                    >
+                                        Amount
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {data.map((row: any, index: number) => (
+                                    <tr
+                                        className="bg-white border-b hover:bg-gray-100"
+                                        key={"index"}
+                                    >
+                                        <td className="px-2 w-1/2 text-center border-r-2">
+                                            {row.category}
+                                        </td>
+                                        <td className="py-4 px-4 w-1/2 text-center">
+                                            {row.amount}
+                                        </td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <Sponsors />
+            </div>
             {/* <HeroBackground>
                 <div className="flex flex-wrap items-center">
-                    <div className="w-full px-4">
+                <div className="w-full px-4">
                         <span className="text-4xl lg:text-6xl font-semibold text-dark">
                             Sponsorship
-                        </span>
+                            </span>
                         <h2 className="mt-5 text-xl font-semibold">
                             Why should you sponsor?
                         </h2>
-                    </div>
+                        </div>
                 </div>
             </HeroBackground>
             <div className="my-6 md:my-8 lg:my-10 p-8 md:p-16 flex flex-col mx-auto max-w-6xl w-full gap-8">
                 <h2 className="text-center text-2xl md:text-4xl text-blue-500 font-semibold mb-10">
-                    --&nbsp;&nbsp;&nbsp;Diamond Sponsors&nbsp;&nbsp;&nbsp;--
+                --&nbsp;&nbsp;&nbsp;Diamond Sponsors&nbsp;&nbsp;&nbsp;--
                 </h2>
                 <Companies />
                 <h2 className="text-center text-2xl md:text-4xl text-amber-400 font-semibold mb-4">
-                    --&nbsp;&nbsp;&nbsp;Gold Sponsors&nbsp;&nbsp;&nbsp;--
+                --&nbsp;&nbsp;&nbsp;Gold Sponsors&nbsp;&nbsp;&nbsp;--
                 </h2>
                 <Companies />
                 <h2 className="text-center text-2xl md:text-4xl text-gray-400 font-semibold mb-4">
                     --&nbsp;&nbsp;&nbsp;Silver Sponsors&nbsp;&nbsp;&nbsp;--
-                </h2>
+                    </h2>
                 <Companies />
                 <h2 className="text-center text-2xl md:text-4xl text-amber-600 font-semibold mb-4">
-                    --&nbsp;&nbsp;&nbsp;Bronze Sponsors&nbsp;&nbsp;&nbsp;--
+                --&nbsp;&nbsp;&nbsp;Bronze Sponsors&nbsp;&nbsp;&nbsp;--
                 </h2>
                 <Companies />
             </div> */}
         </section>
     );
 }
+
+// {/* <div className="mx-auto max-w-5xl mb-16 px-8 lg:px-12 text-justify py-10">
+//     <a
+//         href="http://www.ieee.org/conferences_events/conferences/publishing/templates.html"
+//         target="_blank"
+//         className="text-blue-500 underline underline-offset-4 font-bold"
+//     >
+//         Link
+//         {/* <LinkIcon className="inline-block px-2 -mx-1" /> */}
+//     </a>
+// </div> */}
