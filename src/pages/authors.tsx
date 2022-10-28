@@ -7,28 +7,28 @@ import LinkIcon from "../assets/icons/Link";
 export default function Contact() {
     const dates: row[] = [
         {
-            from: "October 1, 2022",
-            to: "October 1, 2022",
+            from: "November 15, 2022",
+            strikethrough: "October 31, 2022",
             content: "Full Paper Submission",
         },
         {
             from: "December 1, 2022",
-            to: "",
+            strikethrough: "",
             content: "Acceptance",
         },
         {
             from: "December 15, 2022",
-            to: "January 31, 2023",
+            strikethrough: "",
             content: "Camera Ready",
         },
         {
             from: "February 28, 2023",
-            to: "",
+            strikethrough: "",
             content: "Last Date of Registration",
         },
         {
-            from: "March 3 - 5, 2023",
-            to: "March 5, 2023",
+            from: "March 3-5, 2023",
+            strikethrough: "",
             content: "Conference Date",
         },
     ];

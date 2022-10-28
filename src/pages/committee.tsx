@@ -60,7 +60,13 @@ export default function Contact() {
                         <span className="font-bold md:font-normal md:text-[1.06rem]">
                             Debatosh Guha
                         </span>
-                        , Calcutta University, Kolkata
+                        , University of Calcutta, Kolkata
+                    </li>
+                    <li className="py-2">
+                        <span className="font-bold md:font-normal md:text-[1.06rem]">
+                            Debdeep Mukhopadhyay
+                        </span>
+                        , Indian Institute of Technology Kharagpur
                     </li>
                     <li className="py-2">
                         <span className="font-bold md:font-normal md:text-[1.06rem]">
@@ -114,6 +120,12 @@ export default function Contact() {
                     </li>
                     <li className="py-2">
                         <span className="font-bold md:font-normal md:text-[1.06rem]">
+                            Pabitra Mitra
+                        </span>
+                        , Indian Institute of Technology Kharagpur
+                    </li>
+                    <li className="py-2">
+                        <span className="font-bold md:font-normal md:text-[1.06rem]">
                             Prasanta Kumar Jana
                         </span>
                         , Indian Institute of Technology (Indian School of
@@ -130,6 +142,12 @@ export default function Contact() {
                             Rajib Mall
                         </span>
                         , Indian Institute of Technology Kharagpur
+                    </li>
+                    <li className="py-2">
+                        <span className="font-bold md:font-normal md:text-[1.06rem]">
+                            Sajal Kumar Das
+                        </span>
+                        , Missouri University of Science and Technology
                     </li>
                     <li className="py-2">
                         <span className="font-bold md:font-normal md:text-[1.06rem]">
@@ -590,6 +608,12 @@ export default function Contact() {
                         </li>
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
+                                Ayan Mondal
+                            </span>
+                            , Indian Institute of Technology Indore
+                        </li>
+                        <li className="py-2">
+                            <span className="font-bold md:font-normal md:text-[1.06rem]">
                                 Babul P Tiwari
                             </span>
                             , Indian Institute of Information Technology
@@ -626,8 +650,7 @@ export default function Contact() {
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
                                 Koushik Sinha
                             </span>
-                            , School of Computing at Southern Illinois
-                            University, Carbondale
+                            , Southern Illinois University, Carbondale
                         </li>
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
@@ -706,7 +729,13 @@ export default function Contact() {
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
                                 Avik Chakraborty
                             </span>
-                            , University of Exeter
+                            , University of Exeter UK
+                        </li>
+                        <li className="py-2">
+                            <span className="font-bold md:font-normal md:text-[1.06rem]">
+                                Dhiman Saha
+                            </span>
+                            , Indian Institute of Technology Bhilai
                         </li>
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
@@ -726,7 +755,7 @@ export default function Contact() {
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
                                 Kalikinkar Mandal
                             </span>
-                            , University of New Brunswick
+                            , University of New Brunswick CA
                         </li>
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
@@ -756,6 +785,12 @@ export default function Contact() {
                         </li>
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
+                                Sumit Kumar Pandey
+                            </span>
+                            , Indian Institute of Technology Jammu
+                        </li>
+                        <li className="py-2">
+                            <span className="font-bold md:font-normal md:text-[1.06rem]">
                                 Urbi Chatterjee
                             </span>
                             , Indian Institute of Technology Kanpur
@@ -768,9 +803,28 @@ export default function Contact() {
                     <ul className="list-bold px-2 md:px-16">
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
+                                Ayan Pal Chaudhuri
+                            </span>
+                            , DAIICT Gandhinagar
+                        </li>
+                        <li className="py-2">
+                            <span className="font-bold md:font-normal md:text-[1.06rem]">
                                 Debasis Mitra
                             </span>
                             , National Institute of Technology Durgapur
+                        </li>
+                        <li className="py-2">
+                            <span className="font-bold md:font-normal md:text-[1.06rem]">
+                                Deepika Gupta
+                            </span>
+                            , International Institute of Information Technology,
+                            Naya Raipur
+                        </li>
+                        <li className="py-2">
+                            <span className="font-bold md:font-normal md:text-[1.06rem]">
+                                Himadri Sekhar Paul
+                            </span>
+                            , TCS Innovation Lab
                         </li>
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
@@ -799,6 +853,12 @@ export default function Contact() {
                         </li>
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
+                                Sumanta Pyne
+                            </span>
+                            , National Institute of Technology Rourkela
+                        </li>
+                        <li className="py-2">
+                            <span className="font-bold md:font-normal md:text-[1.06rem]">
                                 Tanushree Kaibartta
                             </span>
                             , Indian Institute of Technology (Indian School of
@@ -810,6 +870,18 @@ export default function Contact() {
                         Image, Video and Signal Processing:
                     </h2>
                     <ul className="list-bold px-2 md:px-16">
+                        <li className="py-2">
+                            <span className="font-bold md:font-normal md:text-[1.06rem]">
+                                Anabik Pal
+                            </span>
+                            , SRM University
+                        </li>
+                        <li className="py-2">
+                            <span className="font-bold md:font-normal md:text-[1.06rem]">
+                                Angshuman Paul
+                            </span>
+                            , Indian Institute of Technology Jodhpur
+                        </li>
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
                                 Arup Kumar Pal
@@ -827,8 +899,8 @@ export default function Contact() {
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
                                 Deepika Gupta
                             </span>
-                            , International Institute of Information Technology,
-                            Naya Raipur
+                            , Indian Institute of Information Technology
+                            Vadodara International Campus Diu
                         </li>
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
@@ -845,6 +917,12 @@ export default function Contact() {
                         </li>
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
+                                Prasun Trapathi
+                            </span>
+                            , University of Sheffield, UK
+                        </li>
+                        <li className="py-2">
+                            <span className="font-bold md:font-normal md:text-[1.06rem]">
                                 Priyambada Subudhi
                             </span>
                             , Indian Institute of Information Technology Sri
@@ -852,10 +930,15 @@ export default function Contact() {
                         </li>
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
+                                Rajarshi Pal
+                            </span>
+                            , IDBRT Hyderabad
+                        </li>
+                        <li className="py-2">
+                            <span className="font-bold md:font-normal md:text-[1.06rem]">
                                 Sanjay Pratihar
                             </span>
-                            , International Institute of Information Technology
-                            Kalyani
+                            , Indian Institute of Information Technology Kalyani
                         </li>
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
@@ -927,10 +1010,24 @@ export default function Contact() {
                         </li>
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
+                                Kripabandhu Ghosh
+                            </span>
+                            , Indian Institute of Science Education and Research
+                            (IISER) Kolkata
+                        </li>
+                        <li className="py-2">
+                            <span className="font-bold md:font-normal md:text-[1.06rem]">
                                 Rajendra Prasath
                             </span>
                             , Indian Institute of Information Technology Sri
                             City, Chittoor
+                        </li>
+                        <li className="py-2">
+                            <span className="font-bold md:font-normal md:text-[1.06rem]">
+                                Samrat Mukhopadhyay
+                            </span>
+                            , Indian Institute of Technology (Indian School of
+                            Mines) Dhanbad
                         </li>
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
@@ -946,9 +1043,21 @@ export default function Contact() {
                         </li>
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
+                                Soumajit Pramanik
+                            </span>
+                            , Indian Institute of Technology Bhilai
+                        </li>
+                        <li className="py-2">
+                            <span className="font-bold md:font-normal md:text-[1.06rem]">
                                 Suman Kundu
                             </span>
                             , Indian Institute of Technology Jodhpur
+                        </li>
+                        <li className="py-2">
+                            <span className="font-bold md:font-normal md:text-[1.06rem]">
+                                Tapas Kumar Mishra
+                            </span>
+                            , National Institute of Technology Rourkela
                         </li>
                         <li className="py-2">Other comming soon...</li>
                     </ul>
@@ -975,6 +1084,12 @@ export default function Contact() {
                             </span>
                             , National Institute of Science Education and
                             Research
+                        </li>
+                        <li className="py-2">
+                            <span className="font-bold md:font-normal md:text-[1.06rem]">
+                                Barun Gorain
+                            </span>
+                            , Indian Institute of Technology Bhilai
                         </li>
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
@@ -1039,6 +1154,12 @@ export default function Contact() {
                             </span>
                             , National Institute of Technology Rourkela
                         </li>
+                        <li className="py-2">
+                            <span className="font-bold md:font-normal md:text-[1.06rem]">
+                                Subhrangshu Mandal
+                            </span>
+                            , Indian Institute of Technology Indore
+                        </li>
                         <li className="py-2">Other comming soon...</li>
                     </ul>
                     <h2 className="text-lg md:text-xl md:pl-8 py-2 md:py-4 font-medium">
@@ -1084,6 +1205,13 @@ export default function Contact() {
                                 Shruti Gan Chowdhury
                             </span>
                             , Jadavpur University
+                        </li>
+                        <li className="py-2">
+                            <span className="font-bold md:font-normal md:text-[1.06rem]">
+                                Subhashis Chatterjee
+                            </span>
+                            , Indian Institute of Technology (Indian School of
+                            Mines) Dhanbad
                         </li>
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">

@@ -1,7 +1,6 @@
-import React, { useEffect, useRef, useState } from "react";
-import Link from "next/link";
 import { useOnClickOutside } from "hooks/useOnClickOutside";
-import { SolidHome } from "../../assets/icons";
+import Link from "next/link";
+import React, { useEffect, useRef, useState } from "react";
 
 const NavBar = () => {
     const [open, setOpen] = useState(false);

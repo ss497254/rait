@@ -2,7 +2,7 @@ import React from "react";
 
 export type row = {
     from: string;
-    to: string;
+    strikethrough: string;
     content: string;
 };
 
@@ -41,6 +41,11 @@ export default function ImportantDates({ dates = [] }: { dates: row[] }) {
                                     {row.content}
                                 </td>
                                 <td className="py-4 px-4 w-1/2 text-center">
+                                    {row.strikethrough && (
+                                        <span className="pr-4 line-through">
+                                            {row.strikethrough}
+                                        </span>
+                                    )}
                                     {row.from}
                                 </td>
                             </tr>

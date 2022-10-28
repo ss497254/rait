@@ -19,7 +19,7 @@ function App({ Component, pageProps }: AppProps) {
         <>
             <Head>
                 <title>
-                    RAIT (Recent Advancements in Information Technology) 2023
+                    RAIT (Recent Advances in Information Technology) 2023
                 </title>
                 <link
                     rel="icon"

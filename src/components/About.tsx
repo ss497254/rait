@@ -42,11 +42,12 @@ export default function About() {
                         academic researchers.
                         <br />
                         <br />
-                        It focuses mainly on areas of Recent Advances in Network
-                        and Communications Cryptography and Network Security
-                        Embedded Systems and VLS Image, Video and Signal and
-                        Processing Soft Computing, Artificial Intelligence and
-                        Machine Learning Algorithms Information Technology
+                        It focuses mainly on the areas of Recent Advances in
+                        Network and Communications; Cryptography and Network
+                        Security; Embedded Systems and VLSI; Image, Video and
+                        Signal Processing; Soft Computing, Artificial
+                        Intelligence and Machine Learning; Algorithms and
+                        Information Technology.
                         <div className="flex flex-col md:flex-row gap-10 mt-12">
                             <div className="flex w-full px-4">
                                 <div className="mr-4 pt-2 text-[32px]">
