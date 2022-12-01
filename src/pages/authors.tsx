@@ -1,38 +1,10 @@
-import React from "react";
 import HeroBackground from "components/HeroBackground";
+import ImportantDates from "components/ImportantDates";
 import Sponsors from "components/Sponsors";
-import ImportantDates, { row } from "components/ImportantDates";
+import React from "react";
 import LinkIcon from "../assets/icons/Link";
 
 export default function Contact() {
-    const dates: row[] = [
-        {
-            from: "November 15, 2022",
-            strikethrough: "October 31, 2022",
-            content: "Full Paper Submission",
-        },
-        {
-            from: "December 1, 2022",
-            strikethrough: "",
-            content: "Acceptance",
-        },
-        {
-            from: "December 15, 2022",
-            strikethrough: "",
-            content: "Camera Ready",
-        },
-        {
-            from: "February 28, 2023",
-            strikethrough: "",
-            content: "Last Date of Registration",
-        },
-        {
-            from: "March 3-5, 2023",
-            strikethrough: "",
-            content: "Conference Date",
-        },
-    ];
-
     return (
         <section className="min-h-screen">
             <HeroBackground>
@@ -69,7 +41,7 @@ export default function Contact() {
                             </a>
                         </div>
                     </div>
-                    <ImportantDates dates={dates} />
+                    <ImportantDates />
                     <div className="mb-16 md:px-8 bg-blue-100 py-24">
                         <h2 className="text-center text-3xl mb-12 font-semibold">
                             Major Tracks

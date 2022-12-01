@@ -7,34 +7,6 @@ import Sponsors from "../components/Sponsors";
 import Updates from "../components/Updates";
 
 export default function Hello() {
-    const dates: row[] = [
-        {
-            from: "November 15, 2022",
-            strikethrough: "October 31, 2022",
-            content: "Full Paper Submission",
-        },
-        {
-            from: "December 1, 2022",
-            strikethrough: "",
-            content: "Acceptance",
-        },
-        {
-            from: "December 15, 2022",
-            strikethrough: "",
-            content: "Camera Ready",
-        },
-        {
-            from: "February 28, 2023",
-            strikethrough: "",
-            content: "Last Date of Registration",
-        },
-        {
-            from: "March 3-5, 2023",
-            strikethrough: "",
-            content: "Conference Date",
-        },
-    ];
-
     return (
         <>
             <Hero />
@@ -43,7 +15,7 @@ export default function Hello() {
                     <About />
                     <Speakers />
                     <Updates />
-                    <ImportantDates dates={dates} />
+                    <ImportantDates />
                 </div>
                 <Sponsors />
             </div>
