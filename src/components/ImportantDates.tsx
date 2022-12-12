@@ -19,7 +19,7 @@ export default function ImportantDates() {
             content: "Acceptance",
         },
         {
-            from: "December 15, 2022",
+            from: "December 25, 2022",
             strikethrough: [""],
             content: "Camera Ready",
         },
@@ -36,23 +36,23 @@ export default function ImportantDates() {
     ];
 
     return (
-        <div className="py-16 md:px-12 mb-8">
-            <h2 className="text-center text-3xl mb-12 font-semibold">
+        <div className="py-16 mb-8 md:px-12">
+            <h2 className="mb-12 text-3xl font-semibold text-center">
                 Important Dates
             </h2>
             <div className="max-w-[90vw] outline outline-2 outline-blue-200 overflow-hidden mx-auto shadow-md rounded-lg">
                 <table className="w-full text-left text-gray-800">
-                    <thead className="text-gray-700 uppercase text-lg bg-blue-200">
+                    <thead className="text-lg text-gray-700 uppercase bg-blue-200">
                         <tr>
                             <th
                                 scope="col"
-                                className="py-5 px-2 w-1/2 text-center"
+                                className="w-1/2 px-2 py-5 text-center"
                             >
                                 Event
                             </th>
                             <th
                                 scope="col"
-                                className="py-5 px-4 w-1/2 text-center"
+                                className="w-1/2 px-4 py-5 text-center"
                             >
                                 Deadline
                             </th>
@@ -64,10 +64,10 @@ export default function ImportantDates() {
                                 className="bg-white border-b hover:bg-gray-100"
                                 key={index}
                             >
-                                <td className="px-2 w-1/2 text-center border-r-2">
+                                <td className="w-1/2 px-2 text-center border-r-2">
                                     {row.content}
                                 </td>
-                                <td className="py-4 px-4 w-1/2 text-center">
+                                <td className="w-1/2 px-4 py-4 text-center">
                                     {row.strikethrough &&
                                         row.strikethrough.map((x) => (
                                             <span className="pr-4 line-through">

@@ -7,12 +7,12 @@ export default function Contact() {
     const data: AccordianType[] = [
         {
             title: (
-                <h4 className="text-xl md:text-2xl font-medium text-black">
+                <h4 className="text-xl font-medium text-black md:text-2xl">
                     Advisory Board
                 </h4>
             ),
             content: (
-                <ul className="list-bold md:py-8 px-2 md:px-16">
+                <ul className="px-2 list-bold md:py-8 md:px-16">
                     <li className="py-2">
                         <span className="font-bold md:font-normal md:text-[1.06rem]">
                             Amlan Chakrabarti
@@ -197,18 +197,17 @@ export default function Contact() {
                         </span>
                         , Indian Statistical Institute Kolkata
                     </li>
-                    <li className="py-2">Other comming soon...</li>
                 </ul>
             ),
         },
         {
             title: (
-                <h4 className="text-xl md:text-2xl font-medium text-black">
+                <h4 className="text-xl font-medium text-black md:text-2xl">
                     Program and Organizing Committee
                 </h4>
             ),
             content: (
-                <ul className="list-bold md:py-8 px-4 lg:text-lg">
+                <ul className="px-4 list-bold md:py-8 lg:text-lg">
                     <li className="py-2">
                         <b>Chief Patron:</b> Prem Vrat
                     </li>
@@ -271,12 +270,12 @@ export default function Contact() {
 
         {
             title: (
-                <h4 className="text-xl md:text-2xl font-medium text-black">
+                <h4 className="text-xl font-medium text-black md:text-2xl">
                     Organizing Committee
                 </h4>
             ),
             content: (
-                <ul className="list-bold md:py-8 px-2 md:px-16">
+                <ul className="px-2 list-bold md:py-8 md:px-16">
                     <li className="py-2">
                         <span className="font-bold md:font-normal md:text-[1.06rem]">
                             Ansuman Bhattacharya
@@ -576,17 +575,17 @@ export default function Contact() {
         },
         {
             title: (
-                <h4 className="text-xl md:text-2xl font-medium text-black">
+                <h4 className="text-xl font-medium text-black md:text-2xl">
                     Technical Program Committee
                 </h4>
             ),
             content: (
                 <>
-                    <h2 className="text-lg md:text-xl md:pl-8 py-2 md:py-4 font-medium">
+                    <h2 className="py-2 text-lg font-medium md:text-xl md:pl-8 md:py-4">
                         Network and communication:
                     </h2>
 
-                    <ul className="list-bold px-2 md:px-16">
+                    <ul className="px-2 list-bold md:px-16">
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
                                 Ansuman Bhattacharya
@@ -690,13 +689,12 @@ export default function Contact() {
                             </span>
                             , National Institute of Technology Durgapur
                         </li>
-                        <li className="py-2">Other comming soon...</li>
                     </ul>
-                    <h2 className="text-lg md:text-xl md:pl-8 py-2 md:py-4 font-medium">
+                    <h2 className="py-2 text-lg font-medium md:text-xl md:pl-8 md:py-4">
                         Cryptography and Network Security:
                     </h2>
 
-                    <ul className="list-bold px-2 md:px-16">
+                    <ul className="px-2 list-bold md:px-16">
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
                                 Abhay Kumar Singh
@@ -730,6 +728,13 @@ export default function Contact() {
                                 Avik Chakraborty
                             </span>
                             , University of Exeter UK
+                        </li>
+                        <li className="py-2">
+                            <span className="font-bold md:font-normal md:text-[1.06rem]">
+                                Binanda Sengupta
+                            </span>
+                            , Indian Institute of Technology (Indian School of
+                            Mines) Dhanbad
                         </li>
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
@@ -795,12 +800,11 @@ export default function Contact() {
                             </span>
                             , Indian Institute of Technology Kanpur
                         </li>
-                        <li className="py-2">Other comming soon...</li>
                     </ul>
-                    <h2 className="text-lg md:text-xl md:pl-8 py-2 md:py-4 font-medium">
+                    <h2 className="py-2 text-lg font-medium md:text-xl md:pl-8 md:py-4">
                         Embedded Systems and VLSI:
                     </h2>
-                    <ul className="list-bold px-2 md:px-16">
+                    <ul className="px-2 list-bold md:px-16">
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
                                 Ayan Pal Chaudhuri
@@ -864,12 +868,11 @@ export default function Contact() {
                             , Indian Institute of Technology (Indian School of
                             Mines) Dhanbad
                         </li>
-                        <li className="py-2">Other comming soon...</li>
                     </ul>
-                    <h2 className="text-lg md:text-xl md:pl-8 py-2 md:py-4 font-medium">
+                    <h2 className="py-2 text-lg font-medium md:text-xl md:pl-8 md:py-4">
                         Image, Video and Signal Processing:
                     </h2>
-                    <ul className="list-bold px-2 md:px-16">
+                    <ul className="px-2 list-bold md:px-16">
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
                                 Anabik Pal
@@ -960,13 +963,12 @@ export default function Contact() {
                             , Indian Institute of Technology (Indian School of
                             Mines) Dhanbad
                         </li>
-                        <li className="py-2">Other comming soon...</li>
                     </ul>
-                    <h2 className="text-lg md:text-xl md:pl-8 py-2 md:py-4 font-medium">
+                    <h2 className="py-2 text-lg font-medium md:text-xl md:pl-8 md:py-4">
                         Soft Computing, Artificial Intelligence and Machine
                         Learning:
                     </h2>
-                    <ul className="list-bold px-2 md:px-16">
+                    <ul className="px-2 list-bold md:px-16">
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
                                 Annavarapu Chandra Sekhara Rao
@@ -987,6 +989,7 @@ export default function Contact() {
                             </span>
                             , Indian Institute of Technology Jammu
                         </li>
+
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
                                 Haider Banka
@@ -1014,6 +1017,13 @@ export default function Contact() {
                             </span>
                             , Indian Institute of Science Education and Research
                             (IISER) Kolkata
+                        </li>
+                        <li className="py-2">
+                            <span className="font-bold md:font-normal md:text-[1.06rem]">
+                                Monidipa Das
+                            </span>
+                            , Indian Institute of Technology (Indian School of
+                            Mines) Dhanbad
                         </li>
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
@@ -1059,12 +1069,11 @@ export default function Contact() {
                             </span>
                             , National Institute of Technology Rourkela
                         </li>
-                        <li className="py-2">Other comming soon...</li>
                     </ul>
-                    <h2 className="text-lg md:text-xl md:pl-8 py-2 md:py-4 font-medium">
+                    <h2 className="py-2 text-lg font-medium md:text-xl md:pl-8 md:py-4">
                         Algorithms:
                     </h2>
-                    <ul className="list-bold px-2 md:px-16">
+                    <ul className="px-2 list-bold md:px-16">
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
                                 Ankush Acharyya
@@ -1100,7 +1109,7 @@ export default function Contact() {
                         </li>
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
-                                Diptapriyo Majumder
+                                Diptapriyo Majumdar
                             </span>
                             , Indraprastha Institute of Information Technology
                             Delhi
@@ -1160,12 +1169,11 @@ export default function Contact() {
                             </span>
                             , Indian Institute of Technology Indore
                         </li>
-                        <li className="py-2">Other comming soon...</li>
                     </ul>
-                    <h2 className="text-lg md:text-xl md:pl-8 py-2 md:py-4 font-medium">
+                    <h2 className="py-2 text-lg font-medium md:text-xl md:pl-8 md:py-4">
                         Information Technology:
                     </h2>
-                    <ul className="list-bold px-2 md:px-16">
+                    <ul className="px-2 list-bold md:px-16">
                         <li className="py-2">
                             <span className="font-bold md:font-normal md:text-[1.06rem]">
                                 Dharavath Ramesh
@@ -1226,7 +1234,6 @@ export default function Contact() {
                             , Indian Institute of Technology (Indian School of
                             Mines) Dhanbad
                         </li>
-                        <li className="py-2">Other comming soon...</li>
                     </ul>
                 </>
             ),
@@ -1238,7 +1245,7 @@ export default function Contact() {
             <HeroBackground>
                 <div className="flex flex-wrap items-center">
                     <div className="w-full px-4 lg:-mt-5">
-                        <span className="text-4xl lg:text-6xl font-semibold text-dark">
+                        <span className="text-4xl font-semibold lg:text-6xl text-dark">
                             Committee
                         </span>
                         {/* <h2 className="mt-5 text-xl font-semibold">
@@ -1249,8 +1256,8 @@ export default function Contact() {
                     </div>
                 </div>
             </HeroBackground>
-            <div className="flex relative flex-col-reverse md:flex-row">
-                <div className="px-8 lg:p-16 py-24 w-full max-w-5xl mx-auto">
+            <div className="relative flex flex-col-reverse md:flex-row">
+                <div className="w-full max-w-5xl px-8 py-24 mx-auto lg:p-16">
                     {data.map((item: AccordianType) => (
                         <Accordian title={item.title} content={item.content} />
                     ))}
