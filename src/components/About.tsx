@@ -5,26 +5,26 @@ export default function About() {
     return (
         <section
             id="about"
-            className="relative z-20 overflow-hidden bg-blue-100 pt-[70px] pb-10 lg:pt-[80px] lg:pb-20"
+            className="relative z-20 overflow-hidden bg-blue-50 pt-[70px] pb-10 lg:pt-[80px] lg:pb-20"
         >
             <div className="max-w-6xl mx-auto">
                 <div className="w-full px-6">
                     <div className="mb-12 lg:mb-20">
-                        <span className="mb-2 block text-2xl font-bold text-blue-500">
+                        <span className="block mb-2 text-2xl font-bold text-blue-500">
                             Welcome
                         </span>
-                        <h2 className="mb-4 text-4xl md:text-5xl font-bold text-dark">
+                        <h2 className="mb-4 text-4xl font-bold md:text-5xl text-dark">
                             Know about us
                         </h2>
                     </div>
                 </div>
                 <div className="flex flex-wrap justify-center lg:px-12">
-                    <div className="w-full md:w-fit px-4 mb-12">
-                        <div className="w-fit mx-auto">
+                    <div className="w-full px-4 mb-12 md:w-fit">
+                        <div className="mx-auto w-fit">
                             <AboutImg />
                         </div>
                     </div>
-                    <div className="w-full px-8 md:w-fit text-md md:text-lg text-justify mb-8">
+                    <div className="w-full px-8 mb-8 text-justify md:w-fit text-md md:text-lg">
                         RAIT is a premier conference that encompasses different
                         topics in Information Technology. This conference is
                         technically co-sponsored by the IEEE Kolkata chapter.
@@ -48,7 +48,7 @@ export default function About() {
                         Signal Processing; Soft Computing, Artificial
                         Intelligence and Machine Learning; Algorithms and
                         Information Technology.
-                        <div className="flex flex-col md:flex-row gap-10 mt-12">
+                        <div className="flex flex-col gap-10 mt-12 md:flex-row">
                             <div className="flex w-full px-4">
                                 <div className="mr-4 pt-2 text-[32px]">
                                     <svg
@@ -62,7 +62,7 @@ export default function About() {
                                     </svg>
                                 </div>
                                 <div className="pr-2 text-left">
-                                    <h5 className="mb-1 text-md font-semibold">
+                                    <h5 className="mb-1 font-semibold text-md">
                                         Our Location
                                     </h5>
                                     <p className="text-sm">
@@ -78,7 +78,7 @@ export default function About() {
                                     <SolidCalendar size={30} />
                                 </div>
                                 <div className="pr-2">
-                                    <h5 className="mb-1 text-md font-semibold">
+                                    <h5 className="mb-1 font-semibold text-md">
                                         Scheduled From
                                     </h5>
                                     <p className="text-sm">3 March, 2023</p>
@@ -94,7 +94,7 @@ export default function About() {
 
 const AboutImg = () => {
     return (
-        <div className="w-full px-4 md:px-0 text-blue-500">
+        <div className="w-full px-4 text-blue-500 md:px-0">
             <div className="relative z-10">
                 <img
                     src="/~rait/about.jpg"

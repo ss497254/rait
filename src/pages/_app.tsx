@@ -31,9 +31,18 @@ function App({ Component, pageProps }: AppProps) {
                     content="width=device-width, initial-scale=1, user-scalable=no, user-scalable=0"
                 />
             </Head>
-            <NavBar />
-            <Component {...pageProps} />
-            <Footer />
+            {
+                //@ts-ignore
+                Component.hidden ? (
+                    <Component {...pageProps} />
+                ) : (
+                    <>
+                        <NavBar />
+                        <Component {...pageProps} />
+                        <Footer />
+                    </>
+                )
+            }
         </>
     );
 }

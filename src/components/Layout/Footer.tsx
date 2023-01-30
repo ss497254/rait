@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
     return (
         <footer className="bg-blue-100 border border-t">
-            <div className="flex flex-col md:flex-row md:justify-between p-8 md:p-12">
+            <div className="flex flex-col p-8 md:flex-row md:justify-between md:p-12">
                 <div className="mb-8 md:mb-0">
                     <div className="flex items-center">
                         <img
@@ -18,7 +18,7 @@ export default function Footer() {
                         <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">
                             Resources
                         </h2>
-                        <ul className="text-gray-700 text-sm">
+                        <ul className="text-sm text-gray-700">
                             <li className="mb-4">
                                 <a
                                     href="https://people.iitism.ac.in/~rait"
@@ -44,7 +44,7 @@ export default function Footer() {
                         <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">
                             Follow us
                         </h2>
-                        <ul className="text-gray-700 text-sm">
+                        <ul className="text-sm text-gray-700">
                             <li className="mb-4">
                                 <a
                                     href="https://www.facebook.com/RAIT-103820779127987"
@@ -76,18 +76,18 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="md:h-16 h-24 w-full flex flex-col md:flex-row items-center justify-center md:justify-between px-8 border-t border-gray-300">
+            <div className="flex flex-col items-center justify-center w-full h-24 px-8 border-t border-gray-300 md:h-16 md:flex-row md:justify-between">
                 <span className="text-sm text-gray-900 sm:text-center">
                     © {new Date().getFullYear()}{" "}
                     <a
                         href="https://people.iitism.ac.in/~rait"
                         className="hover:underline"
                     >
-                        RAIT™
+                        RAIT
                     </a>
                     . All Rights Reserved.
                 </span>
-                <div className="flex mt-4 space-x-8 sm:justify-center sm:mt-0 px-4">
+                <div className="flex px-4 mt-4 space-x-8 sm:justify-center sm:mt-0">
                     <a
                         href="https://www.facebook.com/RAIT-103820779127987"
                         target="_blank"
