@@ -7,15 +7,14 @@ import {
 } from "firebase/firestore/lite";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDTqzW4fCECsfqCJYQLdAzIsnXM9NXul2U",
-    authDomain: "cerebrus-creaitors.firebaseapp.com",
+    apiKey: "AIzaSyBP5YVhBKw55GGq7gHWxJJZt54VuVu8dLI",
+    authDomain: "rait-iitism.firebaseapp.com",
+    projectId: "rait-iitism",
+    storageBucket: "rait-iitism.appspot.com",
+    messagingSenderId: "230074753984",
+    appId: "1:230074753984:web:874215d4a85296b69b5e25",
     databaseURL:
-        "https://cerebrus-creaitors-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "cerebrus-creaitors",
-    storageBucket: "cerebrus-creaitors.appspot.com",
-    messagingSenderId: "959138646112",
-    appId: "1:959138646112:web:35349bdd2eeb0f728b9b05",
-    measurementId: "G-C6JT5PL6LB",
+        "https://rait-iitism-default-rtdb.asia-southeast1.firebasedatabase.app",
 };
 
 export const app = initializeApp(firebaseConfig);

@@ -1,10 +1,11 @@
 import HeroBackground from "components/HeroBackground";
 import ImportantDates from "components/ImportantDates";
 import Sponsors from "components/Sponsors";
+import Link from "next/link";
 import React from "react";
 import LinkIcon from "../assets/icons/Link";
 
-export default function Contact() {
+export default function Authors() {
     return (
         <section className="min-h-screen">
             <HeroBackground>
@@ -288,48 +289,12 @@ export default function Contact() {
                         IEEE Publication Agreement
                     </h2>
                     <div className="flex justify-center mb-12">
-                        <a
-                            href="/~rait/authors/login"
-                            className="px-4 py-2 mx-auto text-white bg-blue-500 rounded"
-                        >
-                            Copyright Submission
-                        </a>
+                        <Link href="/authors/login">
+                            <a className="px-4 py-2 mx-auto text-white bg-blue-500 rounded">
+                                Copyright Submission
+                            </a>
+                        </Link>
                     </div>
-                    {/* <form
-                        className="flex justify-center py-12"
-                        action="https://ecopyright.ieee.org/ECTT/IntroPage.jsp"
-                        method="post"
-                    >
-                        <input
-                            type="hidden"
-                            name="PubTitle"
-                            value="2023 5th International Conference on Recent Advances in Information Technology (RAIT)"
-                        />
-                        <input
-                            type="hidden"
-                            name="ArtTitle"
-                            value="On Fluid Queuing Systems with Strict Priority Demo"
-                        />
-                        <input type="hidden" name="AuthName" value="Manohar" />
-                        <input type="hidden" name="ArtId" value="54321" />
-                        <input type="hidden" name="ArtSource" value="57693" />
-                        <input
-                            type="hidden"
-                            name="AuthEmail"
-                            value="falcon497254@gmail.com"
-                        />
-                        <input
-                            type="hidden"
-                            name="rtrnurl"
-                            value="http://localhost:3000/"
-                        />
-                        <input
-                            className="px-5 py-2 mx-auto text-white bg-blue-500 rounded cursor-pointer"
-                            name="Submit"
-                            type="submit"
-                            value="Copyright Submission"
-                        />
-                    </form> */}
                 </div>
                 <Sponsors />
             </div>

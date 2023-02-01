@@ -69,8 +69,11 @@ export default function ImportantDates() {
                                 </td>
                                 <td className="w-1/2 px-4 py-4 text-center">
                                     {row.strikethrough &&
-                                        row.strikethrough.map((x) => (
-                                            <span className="pr-4 line-through">
+                                        row.strikethrough.map((x, idx) => (
+                                            <span
+                                                className="pr-4 line-through"
+                                                key={idx}
+                                            >
                                                 {x}
                                             </span>
                                         ))}

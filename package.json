@@ -10,6 +10,7 @@
         "type-check": "tsc"
     },
     "dependencies": {
+        "firebase": "^9.16.0",
         "next": "latest",
         "nprogress": "^0.2.0",
         "react": "^17.0.2",
