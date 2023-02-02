@@ -2,7 +2,7 @@ import Router from "next/router";
 import React, { useState } from "react";
 import Input from "../../components/Input";
 
-const serverUrl = "http://localhost:3000/~rait/api/login";
+const serverUrl = "https://rait.vercel.app/api/login";
 
 const submitForm = async (data: Record<string, string>) => {
     data;
@@ -15,8 +15,8 @@ const submitForm = async (data: Record<string, string>) => {
             })
         ).json();
 
-        if (res.result) {
-            sessionStorage.setItem("author", JSON.stringify(res.result));
+        if (res.paperId) {
+            sessionStorage.setItem("author", JSON.stringify(res));
             Router.push("/authors/dashboard");
         }
     } catch (e) {
@@ -25,8 +25,6 @@ const submitForm = async (data: Record<string, string>) => {
 };
 
 function Login() {
-    const [showPassword, setShowPassword] = useState(false);
-
     return (
         <div className="relative flex items-center justify-center min-h-screen bg-indigo-200">
             <form
@@ -35,7 +33,7 @@ function Login() {
                     e.preventDefault();
                     const form = new FormData(e.target) as any;
                     submitForm({
-                        email: form.get("email"),
+                        paperId: form.get("paperId"),
                         password: form.get("password"),
                     });
                 }}
@@ -44,34 +42,21 @@ function Login() {
                     Login to your account
                 </h3>
                 <Input
-                    label="Your email"
-                    placeholder="email"
-                    type="email"
+                    label="Enter Paper Id"
+                    placeholder="Paper Id"
+                    type="text"
                     className="my-4"
-                    name="email"
+                    name="paperId"
                     required
                 />
-                <div className="relative mb-4">
-                    <label
-                        htmlFor="password"
-                        className="block mb-2 font-medium text-gray-900 text-md dark:text-gray-300"
-                    >
-                        Your password
-                    </label>
-                    <input
-                        type={showPassword ? "text" : "password"}
-                        id="password"
-                        name="password"
-                        autoComplete="off"
-                        className="bg-gray-50 border border-gray-300 text-black rounded-lg block w-full p-2.5 focus:outline-2 focus:outline-blue-600 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:focus:outline"
-                        placeholder="Password"
-                        required
-                    />
-                    <div
-                        className="absolute text-black bg-gray-300 rounded w-7 h-7 right-2 bottom-2 dark:text-white"
-                        onClick={() => setShowPassword(!showPassword)}
-                    />
-                </div>
+                <Input
+                    label="Enter Password"
+                    placeholder="Password"
+                    type="password"
+                    className="my-4"
+                    name="password"
+                    required
+                />
                 <button
                     className="w-full py-2 my-4 text-lg text-white bg-blue-600 rounded-md focus:ring-[3px] focus:ring-indigo-200"
                     type="submit"

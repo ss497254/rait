@@ -25,7 +25,7 @@ export default function Input({
                 name={name}
                 id={"input" + name}
                 className={
-                    "bg-gray-50 border border-gray-300 text-gray-900 rounded-lg hover:outline-[3px] focus:outline-blue-600 focus:invalid:outline-red-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:hover:outline " +
+                    "bg-gray-50 border border-gray-300 text-gray-900 rounded-lg hover:outline-[3px] focus:outline-blue-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:hover:outline " +
                     inputClassName
                 }
                 placeholder={placeholder}

@@ -278,7 +278,7 @@ export default function Contact() {
                         <a
                             className="w-64 px-4 py-2 text-center text-white bg-blue-500 rounded"
                             target="_blank"
-                            href="https://docs.google.com/forms/d/e/1FAIpQLSceOJ5C1V1biMBnjVLSjEiZojwXO-5hDjPF24KPB0maXo7SZg/viewform"
+                            href="https://forms.gle/rkEUaq32qPYCodq87"
                         >
                             Attendee Registration
                         </a>
