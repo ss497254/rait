@@ -17,10 +17,9 @@ export default async function handler(
         );
 
         if (author) {
-            //@ts-ignore
-            delete author.mobile;
+            const result = { ...author, mobile: undefined };
 
-            return res.json(author);
+            return res.json(result);
         }
         res.json({ message: "invalid credentials" });
     } catch {

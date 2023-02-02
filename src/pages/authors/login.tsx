@@ -1,12 +1,10 @@
 import Router from "next/router";
-import React, { useState } from "react";
+import React from "react";
 import Input from "../../components/Input";
 
-const serverUrl = "https://rait.vercel.app/api/login";
+const serverUrl = "http://localhost:3000/~rait/api/login";
 
 const submitForm = async (data: Record<string, string>) => {
-    data;
-
     try {
         const res = await (
             await fetch(serverUrl, {
