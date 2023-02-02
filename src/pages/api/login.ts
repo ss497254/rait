@@ -1,4 +1,4 @@
-import Authors from "authors.json";
+import Authors from "../../hooks/authors.json";
 import type { NextApiRequest, NextApiResponse } from "next";
 
 export default async function handler(
@@ -8,6 +8,7 @@ export default async function handler(
     if (req.method !== "POST") res.json({ message: "some errors occured" });
 
     try {
+        res.setHeader("Access-Control-Allow-Origin", "*");
         const data = JSON.parse(req.body);
 
         const author = Authors.find(
