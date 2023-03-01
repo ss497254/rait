@@ -404,13 +404,6 @@ export default function Contact() {
                     </li>
                     <li className="py-2">
                         <span className="font-bold md:font-normal md:text-[1.06rem]">
-                            Madhulika Mohanty
-                        </span>
-                        , Indian Institute of Technology (Indian School of
-                        Mines) Dhanbad
-                    </li>
-                    <li className="py-2">
-                        <span className="font-bold md:font-normal md:text-[1.06rem]">
                             Mrinal Sen
                         </span>
                         , Indian Institute of Technology (Indian School of

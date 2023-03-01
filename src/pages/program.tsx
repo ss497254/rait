@@ -24,46 +24,42 @@ const day1 = [
             event: "Lunch",
         },
         {
-            time: "2:30 P. M. - 4:00 P. M.",
-            event: "Tutorial I",
+            time: "2:30 P. M. - 3:30 P. M.",
+            event: "Industry Talk I",
         },
         {
-            time: "4:00 P. M. - 4:30 P. M.",
+            time: "3:30 P. M. - 4:30 P. M.",
+            event: "Industry Talk II",
+        },
+        {
+            time: "4:30 P. M. - 5:00 P. M.",
             event: "Tea Break",
         },
         {
-            time: "4:30 P. M. - 6:00 P. M.",
+            time: "5:00 P. M. - 6:30 P. M.",
             event: "Technical Session I",
-        },
-        {
-            time: "6:30 P.M. - 8:00 P.M.",
-            event: "Cultural",
-        },
-        {
-            time: "8:00 P. M. - 10:30 P. M.",
-            event: "Dinner",
         },
     ],
     day2 = [
         {
-            time: "9:30 A. M. - 11:00 A. M.",
+            time: "9:00 A. M. - 10:30 A. M.",
             event: "Keynote II",
         },
         {
-            time: "11:00 A. M. - 11:30 A. M.",
+            time: "10:30 A. M. - 11:00 A. M.",
             event: "Tea Break",
         },
         {
-            time: "11:30 A. M. - 1:00 P. M.",
+            time: "11:00 A. M. - 12:30 P. M.",
             event: "Technical Session II",
         },
         {
-            time: "1:00 P. M. - 2:30 P. M.",
+            time: "12:30 P. M. - 2:30 P. M.",
             event: "Lunch",
         },
         {
             time: "2:30 P. M. - 4:00 P. M.",
-            event: "WIE",
+            event: "Tutorial I",
         },
         {
             time: "4:00 P. M. - 4:30 P. M.",
@@ -74,33 +70,37 @@ const day1 = [
             event: "Technical Session III",
         },
         {
-            time: "6:30 P.M. - 8:00 P.M.",
+            time: "6:30 P.M. - 7:30 P.M.",
             event: "Cultural",
         },
         {
-            time: "8:00 P. M. - 10:30 P. M.",
+            time: "8:00 P. M. - 10:00 P. M.",
             event: "Dinner",
         },
     ],
     day3 = [
         {
-            time: "9:30 A. M. - 11:00 A. M.",
-            event: "Tutorial II",
+            time: "9:00 A. M. - 10:30 A. M.",
+            event: "WIE",
         },
         {
-            time: "11:00 A. M. - 11:30 A. M.",
+            time: "10:30 A. M. - 11:00 A. M.",
             event: "Tea Break",
         },
         {
-            time: "11:30 A. M. - 1:00 P. M.",
+            time: "11:00 A. M. - 12:30 P. M.",
             event: "Technical Session IV",
         },
         {
-            time: "1:00 P. M. - 2:30 P. M.",
+            time: "12:30 P. M. - 2:00 P. M.",
             event: "Valedictory",
         },
         {
-            time: "2:30 P. M. - 4:00 P. M.",
+            time: "2:00 P. M. - 2:30 P. M.",
+            event: "Vote of Thanks",
+        },
+        {
+            time: "2:30 P. M. onwards",
             event: "Lunch",
         },
     ];
@@ -236,7 +236,7 @@ export default function Contact() {
                     </div>
                     <div className="w-full mt-6">
                         <div className="w-full py-4 text-xl font-semibold text-center text-blue-600">
-                            Day 1
+                            Day 1 - March 3, 2023
                         </div>
                         <div className="flex flex-1 font-semibold bg-blue-200">
                             <div className="flex-1 p-4 text-center border border-black">
@@ -259,7 +259,7 @@ export default function Contact() {
                     </div>
                     <div className="w-full mt-6">
                         <div className="w-full py-4 text-xl font-semibold text-center text-blue-600">
-                            Day 2
+                            Day 2 - March 4, 2023
                         </div>
                         <div className="flex flex-1 font-semibold bg-blue-200">
                             <div className="flex-1 p-4 text-center border border-black">
@@ -282,7 +282,7 @@ export default function Contact() {
                     </div>
                     <div className="w-full mt-6">
                         <div className="w-full py-4 text-xl font-semibold text-center text-blue-600">
-                            Day 3
+                            Day 3 - March 5, 2023
                         </div>
                         <div className="flex flex-1 font-semibold bg-blue-200">
                             <div className="flex-1 p-4 text-center border border-black">
@@ -304,7 +304,7 @@ export default function Contact() {
                         ))}
                     </div>
                     <div className="pt-16 text-3xl font-semibold text-center">
-                        Techincal Sessions
+                        Technical Sessions
                     </div>
                     <div className="w-full mt-2">
                         <div className="w-full py-4 text-xl font-semibold text-center text-blue-600">
@@ -315,10 +315,10 @@ export default function Contact() {
                                 Paper ID
                             </div>
                             <div className="w-64 py-4 text-center border border-black">
-                                Paper Title
+                                Authors
                             </div>
                             <div className="flex-1 p-4 text-center border border-black">
-                                Authors
+                                Paper Title
                             </div>
                         </div>
                         {session1.map((s, idx) => (
@@ -344,10 +344,10 @@ export default function Contact() {
                                 Paper ID
                             </div>
                             <div className="w-64 py-4 text-center border border-black">
-                                Paper Title
+                                Authors
                             </div>
                             <div className="flex-1 p-4 text-center border border-black">
-                                Authors
+                                Paper Title
                             </div>
                         </div>
                         {session2.map((s, idx) => (
@@ -373,10 +373,10 @@ export default function Contact() {
                                 Paper ID
                             </div>
                             <div className="w-64 py-4 text-center border border-black">
-                                Paper Title
+                                Authors
                             </div>
                             <div className="flex-1 p-4 text-center border border-black">
-                                Authors
+                                Paper Title
                             </div>
                         </div>
                         {session3.map((s, idx) => (
@@ -402,10 +402,10 @@ export default function Contact() {
                                 Paper ID
                             </div>
                             <div className="w-64 py-4 text-center border border-black">
-                                Paper Title
+                                Authors
                             </div>
                             <div className="flex-1 p-4 text-center border border-black">
-                                Authors
+                                Paper Title
                             </div>
                         </div>
                         {session4.map((s, idx) => (

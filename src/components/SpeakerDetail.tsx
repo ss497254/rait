@@ -1,17 +1,17 @@
 import React from "react";
 import DottedBackground from "./DottedBackground";
 
-export default function SpeakerDetail() {
+export default function SpeakerDetail({ name, desc, src }: any) {
     return (
         <div className="mx-auto flex flex-col items-center mb-8 max-w-[320px]">
             <div className="relative z-10 mb-6 rounded-full">
                 <img
-                    src="/~rait/profile.jpg"
+                    src={src ?? "/~rait/profile.jpg"}
                     alt="image"
-                    className="w-40 h-40 m-2 rounded-full hover:scale-110 transition duration-500"
+                    className="w-40 h-40 m-2 transition duration-500 rounded-full hover:scale-110"
                 />
                 <DottedBackground />
-                <span className="absolute right-0 bottom-0">
+                <span className="absolute bottom-0 right-0">
                     <svg
                         width="22"
                         height="22"
@@ -26,13 +26,8 @@ export default function SpeakerDetail() {
                     </svg>
                 </span>
             </div>
-            <div className="text-center mb-6 text-lg font-medium">
-                Jezmin uniya
-            </div>
-            <p className="mb-5 text-sm text-body-color px-8 text-justify">
-                Product Designer, Lorem ipsum dolor sit amet consectetur
-                adipisicing elit.
-            </p>
+            <div className="mb-2 text-xl font-medium text-center">{name}</div>
+            <p className="px-8 mb-5 text-center text-body-color">{desc}</p>
         </div>
     );
 }
